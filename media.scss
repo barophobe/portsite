@@ -1,0 +1,212 @@
+$pink: #ffaaaa;
+$blueB: #6dadd5;
+$blueD: #127cc0;
+$yellow:#f2c01b;
+$white:#ffffff;
+$overlay: rgba(45,45,45,0.9);
+$greyL:#c0c0c0;
+$greyD:#959595;
+
+
+
+
+
+@media (max-width: 767px) {
+   
+}
+
+@media screen and (max-width: 1281px) { 
+
+
+}
+
+
+
+@media screen and (max-width: 840px) { 
+#logo {
+  max-width:50%;}
+
+.effects {
+  padding-left: 2px;
+}
+.effects .img {
+  position: relative;
+  float: left;
+  margin-bottom: 5px;
+  width: 49%;
+  overflow: hidden;
+  background:$greyL;
+  height: 300px;
+  font-size: 10px;
+}
+.effects .img:nth-child(n) {
+  margin-right: 0px;
+}
+.effects .img:first-child {
+  margin-left: 0px;
+}
+.effects .img:last-child {
+  margin-right: 0;
+}
+.effects .img img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 300px;
+}
+ .sec {
+  margin-left:2px;
+ }
+.overlay {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  background: $overlay;
+  overflow: hidden;
+  transition: all 0.5s;
+  
+}
+
+
+
+a.close-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  width: 20px;
+  height: 20px;
+  font-size: 8px;
+  font-weight: 700;
+  color: $white;
+  line-height:20px;
+  text-align: center;
+  background-color: #000;
+  cursor: pointer;
+}
+a.close-overlay.hidden {
+  display: none;
+}
+
+a.expand {
+  width:35%;
+  height: 17%;
+  display: block;
+  position: absolute;
+  z-index: 100;
+  border: solid 3px #fff;
+  text-align: center;
+  color: $white;
+  line-height: 15px;
+  font-weight: 700;
+  font-size: 12px;
+ 
+}
+a.expand1 {
+  @extend .expand;
+
+}
+
+/* ============================================================
+  EFFECT 1 - SLIDE IN BOTTOM
+============================================================ */
+#effect-1 .overlay {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 0;
+}
+#effect-1 .overlay a.expand {
+  left: 0;
+  right: 0;
+  bottom: 25%;
+  margin: 0 0 -10% 5%;
+}
+
+#effect-1 .overlay a.expand1 {
+  left: 0;
+  right: 0;
+  bottom: 25%;
+  margin: 0 0 -10% 55%;
+}
+
+
+#effect-1 .img.hover .overlay {
+  height: 100%;
+}
+
+
+
+.portH {
+color:$blueD;
+padding: 1%;
+text-align:center;
+font-size: 18px;
+}
+
+.overHead3 {
+  text-transform: uppercase;
+  color:$white;
+  padding: 0 0 0 2%;
+  font-size: 18px;
+}
+
+
+
+}
+
+
+
+@media only screen and (min-width:401px) and (max-width: 840px)  {
+
+.effects .img {
+
+  height: 350px;
+}
+
+}
+
+
+@media only screen and (min-width:641px) and (max-width: 992px)  {
+  
+ 
+
+}
+
+
+@media only screen and (min-width:315px) and (max-width: 400px)  {
+.portH {
+color:$blueD;
+padding: 0;
+text-align:center;
+font-size: 14px;
+}
+
+.effects .img {
+
+  height: 300px;
+}
+
+
+
+}
+
+  @media only screen and (min-width:394px) and (max-width: 800px)  {
+  
+}
+
+
+
+@media screen and (min-width: 850px) {
+
+  
+  } 
+
+
+  @media only screen and (min-width:1025px) and (max-width: 1100px)  {
+
+  }
+

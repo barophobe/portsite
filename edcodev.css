@@ -1,0 +1,306 @@
+
+
+@font-face{ 
+  font-family: 'edcodev';
+   src: url("vendorfonts/bradbury/bradbury-oblique-webfont.ttf") format('truetype');
+  src: url('vendorfonts/bradbury/bradbury-oblique-webfont.eot') format('embedded-opentype'),
+       url('vendorfonts/bradbury/bradbury-oblique-webfont.woff') format('woff'),
+       url('vendorfonts/bradbury/bradbury-oblique-webfont.svg') format('svg');
+}
+
+@font-face{ 
+  font-family: 'edcodevpuente';
+   src: url("vendorfonts/puente/puente_estrecho_st-webfont.ttf") format('truetype');
+  src: url('vendorfonts/puente/puente_estrecho_st-webfont.eot') format('embedded-opentype'),
+       url('vendorfonts/puente/puente_estrecho_st-webfont.woff') format('woff'),
+       url('vendorfonts/puente/puente_estrecho_st-webfont.svg') format('svg');
+}
+
+
+@font-face{ 
+  font-family: 'raledev';
+   src: url("vendorfonts/raleway/raleway-regular-webfont.ttf") format('truetype');
+  src: url('vendorfonts/raleway/raleway-regular-webfont.eot') format('embedded-opentype'),
+       url('vendorfonts/raleway/raleway-regular-webfont.woff') format('woff'),
+       url('vendorfonts/raleway/raleway-regular-webfont.svg') format('svg');
+}
+
+.hovF {
+ margin:0 auto;
+ width: 26px;
+ height:26px;
+ display:block;
+ background:transparent url("images/fb-icon-bw.png") center top no-repeat;
+ 
+}
+
+.hovF:hover {
+   background-image: url("images/fb-icon.png");
+}
+
+
+.hovT {
+ margin:0 auto;
+ width: 26px;
+ height:26px;
+ display:block;
+ background:transparent url("images/twitter-icon-bw.png") center top no-repeat;
+ 
+}
+
+.hovT:hover {
+   background-image: url("images/twitter-icon.png");
+}
+
+.hovG {
+ margin:0 auto;
+ width: 26px;
+ height:26px;
+ display:block;
+ background:transparent url("images/gplus-icon-bw.png") center top no-repeat;
+ 
+}
+
+.hovG:hover {
+   background-image: url("images/gplus-icon.png");
+}
+
+.hovL {
+ margin:0 auto;
+ width: 26px;
+ height:26px;
+ display:block;
+ background:transparent url("images/linkedin-icon-bw.png") center top no-repeat;
+ 
+}
+
+.hovL:hover {
+   background-image: url("images/linkedin-icon.png");
+}
+
+
+
+
+
+
+
+.scCol{
+  padding:0;
+  margin:0; 
+
+}
+
+
+
+.bodyBkg2 {
+  background-color:#2d2d2d;
+  
+}/*#57585*/
+
+.whtBox {
+  background-color: #ffffff;
+  height:200px;
+  width:650px;
+  border: 1px solid blue;
+  margin: auto;
+  opacity: 1;
+  border-radius: 10px;
+}
+.hero {
+  height:700px;
+}
+.head1 {
+  font-family: raledev;
+  color: #ffffff;
+  
+  display: block;
+  max-width: 60%;
+  margin:30px auto;
+  padding: 10% 0 0 0;
+  text-align: center;
+}
+
+
+.bodyBkg {
+  background-color:#959595;
+}/*#57585a*/
+.ftBkg {
+  background-color:#0B0909;
+  color:#fff;
+  text-align: center;
+  padding-top:1%;
+}
+
+.frmConHd {
+  color:#fff;
+  font-style: bold;
+}
+.frmConHd2 {
+  color:#f2c01b;
+  font-style: bold;
+}
+
+
+
+
+textarea{ 
+    background-color:#C0C0C0 !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+    
+}
+
+input[type="text"]{
+background-color:#C0C0C0 !important;
+color: #fff !important;
+border-radius: 0;
+
+}
+input[type="email"]{
+background-color:#C0C0C0 !important;
+color: #fff !important;
+border-radius: 0;
+
+}
+
+input::-webkit-input-placeholder {
+color: #fff !important;
+
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #fff !important; 
+ 
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #fff !important;
+  
+}
+
+ 
+input:-ms-input-placeholder {  
+color: #fff !important; 
+ 
+}
+
+
+
+
+
+textarea::-webkit-input-placeholder {
+color: #fff !important;
+}
+ 
+textarea:-moz-placeholder { /* Firefox 18- */
+color: #fff !important;  
+}
+ 
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: #fff !important;  
+}
+ 
+textarea:-ms-input-placeholder {  
+color: #fff !important;  
+}
+
+.form-control:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: rgba(242,192,27, 0.8);
+    box-shadow: 0 1px 1px rgba(242,192,27, 0.075) inset, 0 0 8px rgba(242,192,27, 0.6);
+    outline: 0 none;
+}
+
+
+/*form-control:focus {
+  border-color: #FF0000;
+  box-shadow: 0 1px 1px rgba(242,192,27, 0.075) inset, 0 0 8px rgba(242,192,27, 0.6);
+}*/
+
+.whtIco {
+  color: #fff !important;  
+}
+
+
+.btn {
+  background: #f2c01b;
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius:0;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #f2c01b;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+
+.btn.sharp {
+  border-radius:0;
+}
+
+
+
+.ftBor {
+  border-left: 1px solid #fff;
+}
+.socL {
+  display: block;
+  max-width: 22%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.conTxt {
+  margin:20% auto;
+  display:block;
+  max-width: 80%;
+  color:#fff;
+  font: 32px calibri;
+}
+
+.landList{
+  display: block;
+    max-width: 100%;
+    margin: auto;
+  list-style-type: none;
+  padding-bottom: 6%;
+  text-align: left;
+}
+.landList > li{
+  
+   padding: 0;
+   margin:0;
+}
+ .landList > li > a {
+  
+  color: #ffffff;
+  font-size: 22px;
+}
+
+
+.mapPad{
+  padding-top: 3%;
+}
+.twPad{
+  padding-top: 2%;
+}
+
+
+
