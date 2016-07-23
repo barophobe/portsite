@@ -21,8 +21,12 @@
   font-style:bold;
 }
 
-
-
+.clFl {
+  clear:both;
+}
+ .contSpac{
+  margin-top:1%;
+ }
 
 $pink: #ffaaaa;
 $blueB: #6dadd5;
@@ -30,6 +34,7 @@ $blueD: #127cc0;
 $yellow:#f2c01b;
 $white:#ffffff;
 $overlay: rgba(45,45,45,0.9);
+$overlayHd: rgba(45,45,45,0.6);
 $greyL:#c0c0c0;
 $greyD:#959595;
 
@@ -68,47 +73,36 @@ $greyD:#959595;
        url('vendorfonts/raleway/raleway-regular-webfont.woff') format('woff'),
        url('vendorfonts/raleway/raleway-regular-webfont.svg') format('svg');
 }
-
 .hovF {
  margin:0 auto;
  width: 26px;
  height:26px;
  display:block;
  background:transparent url("images/fb-icon-bw.png") center top no-repeat;
- 
-}
-
+ }
 .hovF:hover {
    background-image: url("images/fb-icon.png");
 }
-
-
 .hovT {
+ display:block;
  margin:0 auto;
+ background:transparent url("images/twitter-icon-bw.png") center top no-repeat;
  width: 26px;
  height:26px;
- display:block;
- background:transparent url("images/twitter-icon-bw.png") center top no-repeat;
- 
 }
-
 .hovT:hover {
    background-image: url("images/twitter-icon.png");
 }
-
 .hovG {
  margin:0 auto;
  width: 26px;
  height:26px;
  display:block;
  background:transparent url("images/gplus-icon-bw.png") center top no-repeat;
- 
 }
-
 .hovG:hover {
    background-image: url("images/gplus-icon.png");
 }
-
 .hovL {
  margin:0 auto;
  width: 26px;
@@ -121,7 +115,6 @@ $greyD:#959595;
 .hovL:hover {
    background-image: url("images/linkedin-icon.png");
 }
-
 
 
 
@@ -369,19 +362,38 @@ color: #fff !important;
   font-style:bold;
 }
 
+.subHd {
+  color:$blueD;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
+.wellSty{
+  background-color:lighten($pink,5%);
+  border:none;
+  padding: 8% 0 8% 0;
+}
 
-
-
-#portHd {
+.portHd {
   color:$yellow;
-  font-size:98px;
+  font-weight: bold;
+  font-size:84px;
+  border-bottom: 1px solid $greyL;
+  border-top: 1px solid $greyL;
+  text-transform: uppercase;
+  padding: 3%;
+  margin:1%;
+  border-radius: 1%;
+ 
 }
  .senter {
   text-align: center;
  }
 
-
+.tabsCenter {
+  width: 200px;
+  margin: 0 auto;
+}
 
 
 
@@ -394,7 +406,7 @@ color: #fff !important;
   margin-bottom: 5px;
   width: 25%;
   overflow: hidden;
-  background:$greyL;
+  //background:$greyL;
   height: 400px;
 }
 .effects .img:nth-child(n) {
@@ -510,3 +522,70 @@ text-align:center;
 
 }
   
+.weighty{
+  color: #000000;
+  font-weight: 400;
+}
+
+
+.transHd{
+
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(radial, from($overlayHd), to($white));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-radial-gradient( $white,$overlayHd  72%);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient( $white,$overlayHd 72%);
+
+  /* IE 10 */
+  background: -ms-radial-gradient( $white,$overlayHd  72%);
+
+  /* Opera 11.10+ */
+  background: -o-radial-gradient( $white,$overlayHd  72%);
+
+}
+
+.effects .img {
+
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(radial, from($greyD), to($greyL));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-radial-gradient( $greyL,$greyD  95%);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient( $greyL,$greyD 95%);
+
+  /* IE 10 */
+  background: -ms-radial-gradient( $greyL,$greyD  95%);
+
+  /* Opera 11.10+ */
+  background: -o-radial-gradient( $greyL,$greyD  95%);
+
+}
+
+
+.preshdw {
+box-shadow: 0px -8px 4px -4px #939393 inset;
+}
+.sidShdw {
+box-shadow: 0px 8px 4px -4px #2F2727 outset;
+}
+
+.shwpad{
+  padding-bottom: 24%
+}
+.shwpada{
+  padding-bottom: 19%
+}
+.grad {
+  background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+  background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#2F2727, #2f2f2f 5%); /* Standard syntax */
+}

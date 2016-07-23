@@ -12,6 +12,29 @@ $greyD:#959595;
 
 
 @media (max-width: 767px) {
+  .portHd {
+ 
+  font-size:78px;
+
+}
+   
+}
+
+@media (max-width: 540px) {
+  .portHd {
+ 
+  font-size:60px;
+
+}
+   
+}
+
+@media (max-width: 400px) {
+  .portHd {
+ 
+  font-size:48px;
+
+}
    
 }
 
@@ -170,9 +193,11 @@ font-size: 18px;
 }
 
 
-@media only screen and (min-width:641px) and (max-width: 992px)  {
+@media only screen and (min-width:280px) and (max-width: 992px)  {
   
- 
+ .ftBor {
+  border-left: none;
+}
 
 }
 

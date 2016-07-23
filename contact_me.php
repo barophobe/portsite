@@ -1,6 +1,6 @@
 
 
-<div class="container-fluid bodyBkg">
+<div class="container-fluid bodyBkg contSpac">
 <div class="row">
 <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12">
   
@@ -35,7 +35,8 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'
 
 
     <div class="row">
-
+<div class="well well-lg wellSty">
+  
           <div class="socL">
 
             <ul class="landList list-inline" >
@@ -48,6 +49,7 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'
         </div>
     </div>
 </div>
+</div>    
 
 
 

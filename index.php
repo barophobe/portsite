@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Edc</title>
+  <title>Portfolio</title>
 <link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="portfolio.css">
   <link rel="stylesheet" href="media.css">
-	<script   src="https://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
+	<script   src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="  crossorigin="anonymous"></script>
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,27 +15,36 @@
 	<header id="hdrBg">
 		<img src="images/ed-connolly-LOGO-03.png" id="logo" alt="">
 	</header>
-	<div class="bio"><h2>Edmond Connolly > about me</h2><p><img src="images/Ed_Connolly_profile_02.png" id="edPic" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
-    <h2>Edmond Connolly > </h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam possimus optio magni sint et vel, placeat! Saepe voluptatum modi aliquid dolorem magnam, facilis quis enim esse voluptate similique autem aut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quasi at dignissimos ullam, placeat harum soluta minus possimus aperiam, eligendi amet molestiae modi quidem nemo officia debitis maiores adipisci incidunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias in animi, excepturi totam dolore eligendi et necessitatibus nemo repellat placeat. Ipsam dolores nam ut nobis, soluta iure consectetur, necessitatibus adipisci.</p><br>
-  <h2>Edmond Connolly > </h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam possimus optio magni sint et vel, placeat! Saepe voluptatum modi aliquid dolorem magnam, facilis quis enim esse voluptate similique autem aut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quasi at dignissimos ullam, placeat harum soluta minus possimus aperiam, eligendi amet molestiae modi quidem nemo officia debitis maiores adipisci incidunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias in animi, excepturi totam dolore eligendi et necessitatibus nemo repellat placeat. Ipsam dolores nam ut nobis, soluta iure consectetur, necessitatibus adipisci.</p></div>
+
+ 
+  
+  <div class="row-fluid senter transHd">
+    <div><h1 class=" portHd ">About Me</h1></div>
+  </div>
+
+
+
+
+	<div class="bio"><h2 class="subHd">Edmond Connolly > about me</h2><p class="weighty"><img src="images/Ed_Connolly_profile_02.png" id="edPic" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
+    <h2 class="subHd">Edmond Connolly > </h2><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam possimus optio magni sint et vel, placeat! Saepe voluptatum modi aliquid dolorem magnam, facilis quis enim esse voluptate similique autem aut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quasi at dignissimos ullam, placeat harum soluta minus possimus aperiam, eligendi amet molestiae modi quidem nemo officia debitis maiores adipisci incidunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias in animi, excepturi totam dolore eligendi et necessitatibus nemo repellat placeat. Ipsam dolores nam ut nobis, soluta iure consectetur, necessitatibus adipisci.</p><br>
+  </div>
 	
 
 
-<div class="container-fluid">
   
-  <div class="row-fluid senter">
-    <div class="jumbotron"><h1 id="portHd">Portfolio</h1></div>
+  <div class="row-fluid senter transHd clFl">
+    <div><h1 class="portHd ">Portfolio</h1></div>
   </div>
-</div>
+
 
 
 
 
 
 <div class="tabbable"> <!-- Only required for left/right tabs -->
-  <ul class="nav nav-tabs">
-    <li class="active"><a href="#tab1" data-toggle="tab">1</a></li>
-    <li><a href="#tab2" data-toggle="tab">2</a></li>
+  <ul class="nav nav-tabs tabsCenter">
+    <li class="active"><a href="#tab1" data-toggle="tab">Page one</a></li>
+    <li><a href="#tab2" data-toggle="tab">Page two</a></li>
     
   </ul>
   <div class="tab-content">
@@ -46,7 +55,7 @@
         <div class="overlay">
           <h5 class="overHead">bootstrap/Html<br>css/javascript</h5>
           <h3 class="overHead3">Unipupil<br>Info Pages</h3>
-            <a href="https://github.com/barophobe/Dsa-Major-Project" class="expand" target="_blank">Git Repo</a><a href="http://edcodev.com/portfolio/major_proj/About_us.html" class="expand1" target="_blank">Visit Site</a>
+            <a href="https://github.com/barophobe/Dsa-Major-Project" class="expand" target="_blank">Git Repo</a><a href="portfolio/major_proj/About_us.html" class="expand1" target="_blank">Visit Site</a>
             <a class="close-overlay hidden">x</a>
         
     
@@ -55,7 +64,7 @@
         <div class="overlay">
           <h5 class="overHead">bootstrap/Html<br>css/javascript</h5>
           <h3 class="overHead3">Unipupil<br>Landing Pages</h3>
-            <a href="https://github.com/barophobe/Landing-pages-Unipupil" class="expand" target="_blank">Git Repo</a><a href="http://edcodev.com/portfolio/Unipupil%20landing%20page/Institutions_landing_page.html" class="expand1" target="_blank">Visit Site</a>
+            <a href="https://github.com/barophobe/Landing-pages-Unipupil" class="expand" target="_blank">Git Repo</a><a href="portfolio/Unipupil%20landing%20page/Institutions_landing_page.html" class="expand1" target="_blank">Visit Site</a>
             <a class="close-overlay hidden">x</a>
        
     
@@ -64,7 +73,7 @@
         <div class="overlay">
            <h5 class="overHead">Jquery Mobile<br>Json/Ajax</h5>
           <h3 class="overHead3">Single Page<br>Application</h3>
-            <a href="https://github.com/barophobe/Jquery-mobile-json-dynamic-pages-sort-alphabetically" class="expand" target="_blank">Git Repo</a><a href="#" class="expand1" target="_blank">Visit Site</a>>
+            <a href="https://github.com/barophobe/Jquery-mobile-json-dynamic-pages-sort-alphabetically" class="expand" target="_blank">Git Repo</a><a href="portfolio/jquery_mobile/index.html" class="expand1" target="_blank">Visit Site</a>>
             <a class="close-overlay hidden">x</a>
      
    
@@ -73,7 +82,7 @@
         <div class="overlay">
            <h5 class="overHead">AngularJs<br>css</h5>
           <h3 class="overHead3">To Do List</h3>
-            <a href="https://github.com/barophobe/Angular-to-Do-list" class="expand" target="_blank">Git Repo</a><a href="#" class="expand1" target="_blank">Visit Site</a>
+            <a href="https://github.com/barophobe/Angular-to-Do-list" class="expand" target="_blank">Git Repo</a><a href="ToDo.html" class="expand1" target="_blank">Visit Site</a>
             <a class="close-overlay hidden">x</a>
      
        
@@ -90,7 +99,7 @@
         <div class="overlay">
           <h5 class="overHead">Html/css<br>Sass/javascript</h5>
           <h3 class="overHead3">Animations<br>+ Canvas Tag</h3>
-            <a href="https://github.com/barophobe/Html5advancedFeatures" class="expand" target="_blank">Git Repo</a><a href="http://edcodev.com/portfolio/major_proj/About_us.html" class="expand1" target="_blank">Visit Site</a>
+            <a href="https://github.com/barophobe/Html5advancedFeatures" class="expand" target="_blank">Git Repo</a><a href="portfolio/Html5css3/animation1.html" class="expand1" target="_blank">Visit Site</a>
             <a class="close-overlay hidden">x</a>
         
     
@@ -100,7 +109,7 @@
         <div class="overlay">
           <h5 class="overHead">Html5/css<br>css/javascript</h5>
           <h3 class="overHead3">Semantic Layout/forms<br>Flexbox/Media</h3>
-            <a href="https://github.com/barophobe/html5Css3-Forms-media-semanticLayoutand-more" class="expand" target="_blank">Git Repo</a><a href="http://edcodev.com/portfolio/Unipupil%20landing%20page/Institutions_landing_page.html" class="expand1" target="_blank">Visit Site</a>
+            <a href="https://github.com/barophobe/html5Css3-Forms-media-semanticLayoutand-more" class="expand" target="_blank">Git Repo</a><a href="portfolio/Flexboxws9/director.html" class="expand1" target="_blank">Visit Site</a>
             <a class="close-overlay hidden">x</a>
        
     
@@ -110,7 +119,7 @@
         <div class="overlay">
            <h5 class="overHead">Jquery<br>Json/Ajax</h5>
           <h3 class="overHead3">Flikr<br>XRates API</h3>
-            <a href="https://github.com/barophobe/Jquery-get_json-Ajax-flikr-and-exchange-rateApi-" class="expand" target="_blank">Git Repo</a><a href="#" class="expand1" target="_blank">Visit Site</a>>
+            <a href="https://github.com/barophobe/Jquery-get_json-Ajax-flikr-and-exchange-rateApi-" class="expand" target="_blank">Git Repo</a><a href="portfolio/AjaxFlikrApi/Index.html" class="expand1" target="_blank">Visit Site</a>>
             <a class="close-overlay hidden">x</a>
      
    
@@ -131,12 +140,26 @@
     </div>
   </div>
 </div>
+
+
+  
+  <div class="row-fluid senter transHd">
+    <div><h1 class="portHd ">Contact</h1></div>
+  </div>
+
+
+
  
 <?php include ('contact_me.php'); ?>
+
+</div>
+
+
+<div class="container-fluid">
 <footer id="ed">
-<div class="row-fluid">
-&copy;&nbsp;All rights Reseserved Ed connolly
-</div></footer>
+
+&copy;&nbsp;All rights Reserved Ed Connolly
+</footer></div>
  <script type="text/javascript" src="bootstrap.js"></script>
    	 <script type="text/javascript" src="portfolio.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"> </script>
