@@ -221,9 +221,6 @@ textarea:-ms-input-placeholder {
   text-align: center; }
 
 .conTxt {
-  margin: 20% auto;
-  display: block;
-  max-width: 80%;
   color: #ffffff; }
 
 .landList {
@@ -251,11 +248,6 @@ textarea:-ms-input-placeholder {
   padding: 2% 0 2% 2%;
   font-weight: bold; }
 
-.overHead3 {
-  text-transform: uppercase;
-  color: #ffffff;
-  padding: 0 0 0 2%; }
-
 .projSum {
   padding: 2%;
   color: white;
@@ -272,10 +264,16 @@ textarea:-ms-input-placeholder {
   font-weight: bold;
   text-transform: uppercase; }
 
-.wellSty {
-  background-color: #ffc4c4;
+.wellSty, .wellStyP {
+  background-color: #6dadd5;
   border: none;
-  padding: 8% 0 8% 0; }
+  padding: 8% 0 8% 0;
+  border-radius: 0;
+  text-align: center;
+  margin: 10% auto 5% auto; }
+
+.wellStyP {
+  background-color: #ffaaaa; }
 
 .portHd {
   color: #f2c01b;
@@ -387,13 +385,16 @@ a.expand, a.expand1 {
 #effect-1 .img.hover .overlay {
   height: 100%; }
 
-.img h3 {
-  color: #127cc0; }
+h3.overHead3 {
+  text-transform: uppercase;
+  color: #127cc0;
+  padding: 0 0 0 2%; }
 
 .portH {
   color: #127cc0;
   padding: 1%;
-  text-align: center; }
+  text-align: center;
+  border-bottom: 2px solid #f2c01b; }
 
 .weighty {
   color: #000000;

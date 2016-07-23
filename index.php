@@ -18,16 +18,7 @@
 
  
   
-  <div class="row-fluid senter transHd">
-    <div><h1 class=" portHd ">About Me</h1></div>
-  </div>
-
-
-
-
-	<div class="bio"><h2 class="subHd">Edmond Connolly > about me</h2><p class="weighty"><img src="images/Ed_Connolly_profile_02.png" id="edPic" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
-    <h2 class="subHd">Edmond Connolly > </h2><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam possimus optio magni sint et vel, placeat! Saepe voluptatum modi aliquid dolorem magnam, facilis quis enim esse voluptate similique autem aut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quasi at dignissimos ullam, placeat harum soluta minus possimus aperiam, eligendi amet molestiae modi quidem nemo officia debitis maiores adipisci incidunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias in animi, excepturi totam dolore eligendi et necessitatibus nemo repellat placeat. Ipsam dolores nam ut nobis, soluta iure consectetur, necessitatibus adipisci.</p><br>
-  </div>
+  
 	
 
 
@@ -37,7 +28,9 @@
   </div>
 
 
-
+<div class="bio"><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
+    
+</div>
 
 
 
@@ -141,19 +134,37 @@
   </div>
 </div>
 
+<div class="row-fluid senter transHd">
+    <div><h1 class=" portHd ">About Me</h1></div>
+  </div>
 
+
+
+
+  <div class="bio"><h2 class="subHd">Edmond Connolly > about me</h2><p class="weighty"><img src="images/Ed_Connolly_profile_02.png" id="edPic" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
+    <h2 class="subHd">Edmond Connolly > </h2><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam possimus optio magni sint et vel, placeat! Saepe voluptatum modi aliquid dolorem magnam, facilis quis enim esse voluptate similique autem aut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quasi at dignissimos ullam, placeat harum soluta minus possimus aperiam, eligendi amet molestiae modi quidem nemo officia debitis maiores adipisci incidunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias in animi, excepturi totam dolore eligendi et necessitatibus nemo repellat placeat. Ipsam dolores nam ut nobis, soluta iure consectetur, necessitatibus adipisci.</p><br>
+  </div>
+
+<hr>
   
   <div class="row-fluid senter transHd">
     <div><h1 class="portHd ">Contact</h1></div>
   </div>
 
 
+<hr>
 
- 
+<div class="bio"><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
+    
+</div>
+ <div class="container-fluid">
+<footer id="ed">
+
+|
+</footer></div>
 <?php include ('contact_me.php'); ?>
 
 </div>
-
 
 <div class="container-fluid">
 <footer id="ed">

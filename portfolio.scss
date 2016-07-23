@@ -305,9 +305,6 @@ color: #fff !important;
 }
 
 .conTxt {
-  margin:20% auto;
-  display:block;
-  max-width: 80%;
   color:$white;
 }
 
@@ -343,11 +340,6 @@ color: #fff !important;
   font-weight:bold;
 }
 
-.overHead3 {
-  text-transform: uppercase;
-  color:$white;
-  padding: 0 0 0 2%;
-}
 
 
 .projSum {
@@ -369,10 +361,18 @@ color: #fff !important;
 }
 
 .wellSty{
-  background-color:lighten($pink,5%);
+  background-color:$blueB;
   border:none;
   padding: 8% 0 8% 0;
+  border-radius: 0;
+  text-align: center;
+  margin: 10% auto 5% auto;
 }
+
+.wellStyP {
+  @extend .wellSty;
+  background-color:$pink;
+  }
 
 .portHd {
   color:$yellow;
@@ -510,16 +510,18 @@ a.expand1 {
 
 
 
-.img  h3 {
-color:$blueD;
-}
 
+ h3.overHead3  {
+  text-transform: uppercase;
+  color:$blueD;
+  padding: 0 0 0 2%;
+}
 
 .portH {
 color:$blueD;
 padding: 1%;
 text-align:center;
-
+border-bottom: 2px solid $yellow;
 }
   
 .weighty{
