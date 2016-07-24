@@ -21,12 +21,12 @@
   
 	
 
-
+<hr>
   
   <div class="row-fluid senter transHd clFl">
     <div><h1 class="portHd ">Portfolio</h1></div>
   </div>
-
+<hr>
 
 <div class="bio"><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
     
@@ -44,7 +44,7 @@
     <div class="tab-pane active" id="tab1">
       <div id="effect-1" class="effects clearfix">
     <div class="img  col-sm-6 col-xs-6 col-md-6">
-        <h3 class="portH">Info Pages-Unipupil</h3><p class="projSum">This project involved the development of several information pages for an already existing educatiional portal. A cross functional team including myself a Project Manager and a Designer collaborated with the client and produced 5 pages.  The framework used was Twitter bootstrap. It is a mobile first responsive website.</p>
+        <h3 class="portH">Info Pages<span class="portDots">&nbsp;:</span> Unipupil</h3><p class="projSum">This project involved the development of several information pages for an already existing educatiional portal. A cross functional team including myself a Project Manager and a Designer collaborated with the client and produced 5 pages.  The framework used was Twitter bootstrap. It is a mobile first responsive website.</p>
         <div class="overlay">
           <h5 class="overHead">bootstrap/Html<br>css/javascript</h5>
           <h3 class="overHead3">Unipupil<br>Info Pages</h3>
@@ -53,7 +53,7 @@
         
     
     </div></div><div class="img col-sm-6 col-xs-6 col-md-6 sec ">
-         <h3 class="portH">Landing Pages-Unipupil</h3><p class="projSum">Two landing pages were developed for Unipupil targeted at distinct user types of the portal, namely Educational Institutions and prospective students. As before a cross functional team liased with the client and developed a design which i then developed. This totalled two landing pages and two thank you pages.Form data was captured via mailchimp.</p>
+         <h3 class="portH">Landing Pages<span class="portDots">&nbsp;:</span> Unipupil</h3><p class="projSum">Two landing pages were developed for Unipupil targeted at distinct user types of the portal, namely Educational Institutions and prospective students. As before a cross functional team liased with the client and developed a design which i then developed. This totalled two landing pages and two thank you pages.Form data was captured via mailchimp.</p>
         <div class="overlay">
           <h5 class="overHead">bootstrap/Html<br>css/javascript</h5>
           <h3 class="overHead3">Unipupil<br>Landing Pages</h3>
@@ -133,21 +133,21 @@
     </div>
   </div>
 </div>
-
+<hr>
 <div class="row-fluid senter transHd">
     <div><h1 class=" portHd ">About Me</h1></div>
   </div>
 
 
+<hr>
 
-
-  <div class="bio"><h2 class="subHd">Edmond Connolly > about me</h2><p class="weighty"><img src="images/Ed_Connolly_profile_02.png" id="edPic" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
-    <h2 class="subHd">Edmond Connolly > </h2><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam possimus optio magni sint et vel, placeat! Saepe voluptatum modi aliquid dolorem magnam, facilis quis enim esse voluptate similique autem aut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quasi at dignissimos ullam, placeat harum soluta minus possimus aperiam, eligendi amet molestiae modi quidem nemo officia debitis maiores adipisci incidunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias in animi, excepturi totam dolore eligendi et necessitatibus nemo repellat placeat. Ipsam dolores nam ut nobis, soluta iure consectetur, necessitatibus adipisci.</p><br>
+  <div class="bio"><h4 class="subHd subTrans">&nbsp;&nbsp;&nbsp;&nbsp;Ed Connolly&nbsp;&nbsp;&nbsp;&nbsp;</h4><p class="weighty"><img src="images/Ed_Connolly_profile_02.png" id="edPic" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
+    <h4 class="subHd subTrans">&nbsp;&nbsp;&nbsp;&nbsp;Ed Connolly&nbsp;&nbsp;&nbsp;&nbsp;  </h4><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam possimus optio magni sint et vel, placeat! Saepe voluptatum modi aliquid dolorem magnam, facilis quis enim esse voluptate similique autem aut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quasi at dignissimos ullam, placeat harum soluta minus possimus aperiam, eligendi amet molestiae modi quidem nemo officia debitis maiores adipisci incidunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias in animi, excepturi totam dolore eligendi et necessitatibus nemo repellat placeat. Ipsam dolores nam ut nobis, soluta iure consectetur, necessitatibus adipisci.</p><br>
   </div>
 
 <hr>
   
-  <div class="row-fluid senter transHd">
+  <div class="row-fluid senter transHd clFl">
     <div><h1 class="portHd ">Contact</h1></div>
   </div>
 

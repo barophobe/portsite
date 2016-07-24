@@ -176,6 +176,10 @@ $greyD:#959595;
   color:$yellow;
   font-style: bold;
 }
+.portDots{
+  color:$white;
+  
+}
 
 
 
@@ -355,11 +359,35 @@ color: #fff !important;
 }
 
 .subHd {
-  color:$blueD;
+  display:inline-block;
+  color:$blueB;
+  text-shadow: 2px 2px 2px $overlayHd;
   font-weight: bold;
   text-transform: uppercase;
+  border: 2px solid $blueD;
+  padding:1% 10% 1% 10%;
+  margin-bottom:2%;
+  box-shadow: 5px 5px 5px #888888;
 }
+.subTrans{
 
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(radial, from($overlay, to($overlayHd)));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-radial-gradient( $overlayHd,$overlay  80%);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient( $overlayHd,$overlay 80%);
+
+  /* IE 10 */
+  background: -ms-radial-gradient( $overlayHd,$overlay  80%);
+
+  /* Opera 11.10+ */
+  background: -o-radial-gradient( $overlayHd,$overlay  80%);
+
+
+}
 .wellSty{
   background-color:$blueB;
   border:none;
@@ -522,6 +550,7 @@ color:$blueD;
 padding: 1%;
 text-align:center;
 border-bottom: 2px solid $yellow;
+ text-transform: uppercase;
 }
   
 .weighty{

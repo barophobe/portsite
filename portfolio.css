@@ -130,6 +130,9 @@
   color: #f2c01b;
   font-style: bold; }
 
+.portDots {
+  color: #ffffff; }
+
 textarea {
   background-color: #c0c0c0 !important;
   color: #fff !important;
@@ -260,9 +263,27 @@ textarea:-ms-input-placeholder {
   font-style: bold; }
 
 .subHd {
-  color: #127cc0;
+  display: inline-block;
+  color: #6dadd5;
+  text-shadow: 2px 2px 2px rgba(45, 45, 45, 0.6);
   font-weight: bold;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border: 2px solid #127cc0;
+  padding: 1% 10% 1% 10%;
+  margin-bottom: 2%;
+  box-shadow: 5px 5px 5px #888888; }
+
+.subTrans {
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(radial, from(rgba(45, 45, 45, 0.9), to(rgba(45, 45, 45, 0.6))));
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-radial-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.9) 80%);
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.9) 80%);
+  /* IE 10 */
+  background: -ms-radial-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.9) 80%);
+  /* Opera 11.10+ */
+  background: -o-radial-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.9) 80%); }
 
 .wellSty, .wellStyP {
   background-color: #6dadd5;
@@ -394,7 +415,8 @@ h3.overHead3 {
   color: #127cc0;
   padding: 1%;
   text-align: center;
-  border-bottom: 2px solid #f2c01b; }
+  border-bottom: 2px solid #f2c01b;
+  text-transform: uppercase; }
 
 .weighty {
   color: #000000;
