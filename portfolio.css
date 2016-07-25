@@ -347,7 +347,7 @@ textarea:-ms-input-placeholder {
   z-index: 20;
   background: rgba(45, 45, 45, 0.9);
   overflow: hidden;
-  transition: all 0.5s; }
+  transition: all 0.7s; }
 
 a.close-overlay {
   display: block;
