@@ -35,6 +35,7 @@ $yellow:#f2c01b;
 $white:#ffffff;
 $overlay: rgba(45,45,45,0.9);
 $overlayHd: rgba(45,45,45,0.6);
+$overlayT: rgba(45,45,45,0);
 $greyL:#c0c0c0;
 $greyD:#959595;
 
@@ -419,11 +420,13 @@ color: #fff !important;
  }
 
 .tabsCenter {
-  width: 200px;
+  width: 400px;
   margin: 0 auto;
 }
 
-
+#invis{
+  color:$overlayT;
+}
 
 .effects {
   padding-left: 15px;

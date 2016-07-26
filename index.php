@@ -36,8 +36,8 @@
 
 <div class="tabbable"> <!-- Only required for left/right tabs -->
   <ul class="nav nav-tabs tabsCenter">
-    <li class="active"><a href="#tab1" data-toggle="tab">Page one</a></li>
-    <li><a href="#tab2" data-toggle="tab">Page two</a></li>
+    <li class="active subHd subTrans"><a href="#tab1" data-toggle="tab">Page one</a></li>
+    <li class="subHd subTrans"><a href="#tab2" data-toggle="tab">Page two</a></li>
     
   </ul>
   <div class="tab-content">
@@ -160,7 +160,7 @@
  <div class="container-fluid">
 <footer id="ed">
 
-|
+<span id="invis">|</span>
 </footer></div>
 <?php include ('contact_me.php'); ?>
 

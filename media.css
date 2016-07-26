@@ -1,12 +1,3 @@
-@media (max-width: 767px) {
-  .portHd {
-    font-size: 78px; } }
-@media (max-width: 540px) {
-  .portHd {
-    font-size: 60px; } }
-@media (max-width: 400px) {
-  .portHd {
-    font-size: 48px; } }
 @media screen and (max-width: 840px) {
   #logo {
     max-width: 50%; }
@@ -122,9 +113,6 @@
 @media only screen and (min-width: 401px) and (max-width: 840px) {
   .effects .img {
     height: 350px; } }
-@media only screen and (min-width: 280px) and (max-width: 992px) {
-  .ftBor {
-    border-left: none; } }
 @media only screen and (min-width: 315px) and (max-width: 400px) {
   .portH {
     color: #127cc0;

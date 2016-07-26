@@ -311,8 +311,11 @@ textarea:-ms-input-placeholder {
   text-align: center; }
 
 .tabsCenter {
-  width: 200px;
+  width: 400px;
   margin: 0 auto; }
+
+#invis {
+  color: rgba(45, 45, 45, 0); }
 
 .effects {
   padding-left: 15px; }
