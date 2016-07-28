@@ -1,4 +1,3 @@
-
 #pageDim {
   padding: 0px;
   margin: 0px; }
@@ -348,7 +347,7 @@ textarea:-ms-input-placeholder {
 .overlay {
   display: block;
   position: absolute;
-  z-index: 20;
+  z-index: 1;
   background: rgba(45, 45, 45, 0.9);
   overflow: hidden;
   transition: all 0.7s; }
@@ -358,7 +357,7 @@ a.close-overlay {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 100;
+  z-index: 2;
   width: 45px;
   height: 45px;
   font-size: 20px;
@@ -377,7 +376,7 @@ a.expand, a.expand1 {
   height: 10%;
   display: block;
   position: absolute;
-  z-index: 100;
+  z-index: 2;
   border: solid 3px #fff;
   text-align: center;
   color: #ffffff;
@@ -473,5 +472,116 @@ h3.overHead3 {
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(#2F2727, #2f2f2f 5%);
   /* Standard syntax */ }
+
+.c-hamburger {
+  display: block;
+  position: fixed;
+  overflow: hidden;
+  z-index: 3;
+  margin: 0;
+  padding: 0;
+  width: 72px;
+  height: 72px;
+  right: 2%;
+  top: 4%;
+  font-size: 0;
+  text-indent: -9999px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s; }
+
+.c-hamburger:focus {
+  outline: none; }
+
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 12px;
+  right: 12px;
+  height: 6px;
+  background: #f2c01b; }
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: #f2c01b;
+  content: ""; }
+
+.c-hamburger span::before {
+  top: -20px; }
+
+.c-hamburger span::after {
+  bottom: -20px; }
+
+.c-hamburger--rot {
+  background-color: rgba(45, 45, 45, 0.9); }
+
+.c-hamburger--rot span {
+  transition: transform 0.3s; }
+
+/* active state, i.e. menu open */
+.c-hamburger--rot.is-active {
+  background-color: #127cc0; }
+
+.c-hamburger--rot.is-active span {
+  transform: rotate(90deg); }
+
+/* The Overlay (background) */
+.layover {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  display: none;
+  height: 20%;
+  width: 20%;
+  position: fixed;
+  /* Stay in place */
+  z-index: 3;
+  /* Sit on top */
+  right: 2%;
+  top: 15%;
+  background-color: black;
+  /* Black fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/opacity */
+  overflow: hidden;
+  /* Disable horizontal scroll */
+  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */ }
+
+/* Position the content inside the overlay */
+.layover-content {
+  position: relative;
+  top: 10%;
+  /* 25% from the top */
+  width: 100%;
+  /* 100% width */
+  text-align: center;
+  /* Centered text/links */
+  margin-top: 3%;
+  /* 30px top margin to avoid conflict with the close button on smaller screens */ }
+
+/* The navigation links inside the overlay */
+.layover a {
+  padding: 3%;
+  text-decoration: none;
+  color: #f2c01b;
+  display: block;
+  /* Display block instead of inline */
+  /* Transition effects on hover (color) */ }
+
+/* When you mouse over the navigation links, change their color */
+.layover a:hover, .layover a:focus {
+  color: #f1f1f1; }
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .layover a {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=portfolio.css.map */

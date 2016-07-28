@@ -17,6 +17,25 @@
 	</header>
 
  
+
+ <div id="myNav" class="layover">
+
+ <!--  layover content -->
+  <div class="layover-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+</div>
+
+
+
+
+<button class="c-hamburger c-hamburger--rot">
+  <span>toggle menu</span>
+</button>
   
   
 	
