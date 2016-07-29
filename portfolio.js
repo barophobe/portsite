@@ -34,6 +34,13 @@ $("button").click(function(){
 });
 });
 
+$(function(){
+  $(".layover-content a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+
 
 (function() {
 

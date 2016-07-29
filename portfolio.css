@@ -561,18 +561,12 @@ h3.overHead3 {
   /* 25% from the top */
   width: 100%;
   /* 100% width */
-  text-align: center;
-  /* Centered text/links */
-  margin-top: 3%;
-  /* 30px top margin to avoid conflict with the close button on smaller screens */ }
+  text-transform: uppercase;
+  font-weight: bold; }
 
 /* The navigation links inside the overlay */
 .layover a {
-  padding: 3%;
   text-decoration: none;
-  color: #f2c01b;
-  display: block;
-  /* Display block instead of inline */
   /* Transition effects on hover (color) */ }
 
 /* When you mouse over the navigation links, change their color */
@@ -583,5 +577,70 @@ h3.overHead3 {
 @media screen and (max-height: 450px) {
   .layover a {
     font-size: 20px; } }
+.navLst {
+  list-style: none;
+  padding: 2%; }
+  .navLst li {
+    background-color: rgba(255, 170, 170, 0.2);
+    border-bottom: 1px dashed Black; }
+  .navLst h5 {
+    display: inline-block; }
+
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 4px;
+  width: 96px;
+  height: 96px;
+  font-size: 0;
+  text-indent: -9999px; }
+
+.icon-mono {
+  background: url("../img/icons1.png");
+  background-image: url("../img/icons1.svg"), none;
+  background-color: #595959;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s; }
+
+/* facebook */
+.icon-mono.facebook {
+  background-position: 0 0; }
+
+.icon-mono.facebook:hover {
+  background-color: #3b5998;
+  background-position: 0 -96px; }
+
+/* twitter */
+.icon-mono.twitter {
+  background-position: -96px 0; }
+
+.icon-mono.twitter:hover {
+  background-color: #4099ff;
+  background-position: -96px -96px; }
+
+/* google plus */
+.icon-mono.googleplus {
+  background-position: -192px 0; }
+
+.icon-mono.googleplus:hover {
+  background-color: #d34836;
+  background-position: -192px -96px; }
+
+/* github */
+.icon-mono.github {
+  background-position: -288px 0; }
+
+.icon-mono.github:hover {
+  background-color: #333333;
+  background-position: -288px -96px; }
+
+/* rss */
+.icon-mono.rss {
+  background-position: -384px 0; }
+
+.icon-mono.rss:hover {
+  background-color: #ee802f;
+  background-position: -384px -96px; }
 
 /*# sourceMappingURL=portfolio.css.map */

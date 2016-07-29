@@ -9,8 +9,10 @@
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body id="pageDim">
+  <section id="intro" class="section">
   <?php include_once("analyticstracking.php") ?>
 	<header id="hdrBg">
 		<img src="images/ed-connolly-LOGO-03.png" id="logo" alt="">
@@ -22,10 +24,13 @@
 
  <!--  layover content -->
   <div class="layover-content">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <ul class="navLst">
+      <li><a href="#intro" class="overHead"><h5><strong>Top</strong></h5></a></li>
+    <li><a href="#portfolio" class="overHead"><h5><strong>Portfolio</strong></h5></a></li>
+    <li><a href="#about" class="overHead"><h5><strong>About</strong></h5></a></li>
+    <li><a href="#contact" class="overHead"><h5><strong>Contact</strong></h5></a></li>
+  </ul>
+    
   </div>
 
 </div>
@@ -37,13 +42,13 @@
   <span>toggle menu</span>
 </button>
   
-  
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe numquam perferendis fugit laboriosam aliquid nobis quasi dolor sunt molestiae, voluptate magni minima nesciunt soluta distinctio neque quis fuga ad cupiditate.</p>
 	
-
+</section>
 <hr>
-  
+  <section id="portfolio" class="section">
   <div class="row-fluid senter transHd clFl">
-    <div><h1 class="portHd ">Portfolio</h1></div>
+    <div><h1 class="portHd">Portfolio</h1></div>
   </div>
 <hr>
 
@@ -152,6 +157,9 @@
     </div>
   </div>
 </div>
+</section>
+
+<section id="about" class="section">
 <hr>
 <div class="row-fluid senter transHd">
     <div><h1 class=" portHd ">About Me</h1></div>
@@ -163,14 +171,16 @@
   <div class="bio"><h4 class="subHd subTrans">&nbsp;&nbsp;&nbsp;&nbsp;Ed Connolly&nbsp;&nbsp;&nbsp;&nbsp;</h4><p class="weighty"><img src="images/Ed_Connolly_profile_02.png" id="edPic" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
     <p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam possimus optio magni sint et vel, placeat! Saepe voluptatum modi aliquid dolorem magnam, facilis quis enim esse voluptate similique autem aut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quasi at dignissimos ullam, placeat harum soluta minus possimus aperiam, eligendi amet molestiae modi quidem nemo officia debitis maiores adipisci incidunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias in animi, excepturi totam dolore eligendi et necessitatibus nemo repellat placeat. Ipsam dolores nam ut nobis, soluta iure consectetur, necessitatibus adipisci.</p><br>
   </div>
+</section>
 
+<section id="contact" class="section">
 <hr>
   
   <div class="row-fluid senter transHd clFl">
     <div><h1 class="portHd ">Contact</h1></div>
   </div>
 
-
+</section>
 <hr>
 
 <div class="bio"><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
@@ -192,6 +202,7 @@
 </footer></div>
  <script type="text/javascript" src="bootstrap.js"></script>
    	 <script type="text/javascript" src="portfolio.js"></script>
+     <script type="text/javascript" src="jquery.scrollTo.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"> </script>
 </body>
 </html>
