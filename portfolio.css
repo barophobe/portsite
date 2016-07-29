@@ -311,7 +311,7 @@ textarea:-ms-input-placeholder {
   text-align: center; }
 
 .tabsCenter {
-  width: 400px;
+  width: 200px;
   margin: 0 auto; }
 
 #invis {
@@ -473,6 +473,9 @@ h3.overHead3 {
   background: linear-gradient(#2F2727, #2f2f2f 5%);
   /* Standard syntax */ }
 
+/* ============================================================
+  Hamburger menu
+============================================================ */
 .c-hamburger {
   display: block;
   position: fixed;
@@ -586,61 +589,208 @@ h3.overHead3 {
   .navLst h5 {
     display: inline-block; }
 
-.icon {
-  display: inline-block;
-  vertical-align: top;
-  overflow: hidden;
-  margin: 4px;
-  width: 96px;
-  height: 96px;
-  font-size: 0;
-  text-indent: -9999px; }
+@media only screen and (min-width: 450px) and (max-width: 800px) {
+  .c-hamburger {
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    z-index: 3;
+    margin: 0;
+    padding: 0;
+    width: 54px;
+    height: 54px;
+    right: 6%;
+    top: 2%;
+    font-size: 0;
+    text-indent: -9999px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s; }
 
-.icon-mono {
-  background: url("../img/icons1.png");
-  background-image: url("../img/icons1.svg"), none;
-  background-color: #595959;
-  -webkit-transition: background 0.3s;
-  transition: background 0.3s; }
+  .c-hamburger:focus {
+    outline: none; }
 
-/* facebook */
-.icon-mono.facebook {
-  background-position: 0 0; }
+  .c-hamburger span {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 6px;
+    right: 6px;
+    height: 3px;
+    background: #f2c01b; }
 
-.icon-mono.facebook:hover {
-  background-color: #3b5998;
-  background-position: 0 -96px; }
+  .c-hamburger span::before,
+  .c-hamburger span::after {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #f2c01b;
+    content: ""; }
 
-/* twitter */
-.icon-mono.twitter {
-  background-position: -96px 0; }
+  .c-hamburger span::before {
+    top: -12px; }
 
-.icon-mono.twitter:hover {
-  background-color: #4099ff;
-  background-position: -96px -96px; }
+  .c-hamburger span::after {
+    bottom: -12px; }
 
-/* google plus */
-.icon-mono.googleplus {
-  background-position: -192px 0; }
+  .c-hamburger--rot {
+    background-color: rgba(45, 45, 45, 0.9); }
 
-.icon-mono.googleplus:hover {
-  background-color: #d34836;
-  background-position: -192px -96px; }
+  .c-hamburger--rot span {
+    transition: transform 0.3s; }
 
-/* github */
-.icon-mono.github {
-  background-position: -288px 0; }
+  /* active state, i.e. menu open */
+  .c-hamburger--rot.is-active {
+    background-color: #127cc0; }
 
-.icon-mono.github:hover {
-  background-color: #333333;
-  background-position: -288px -96px; }
+  .c-hamburger--rot.is-active span {
+    transform: rotate(90deg); }
 
-/* rss */
-.icon-mono.rss {
-  background-position: -384px 0; }
+  /* The Overlay (background) */
+  .layover {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    display: none;
+    height: 20%;
+    width: 30%;
+    position: fixed;
+    /* Stay in place */
+    z-index: 3;
+    /* Sit on top */
+    right: 2%;
+    top: 10%;
+    background-color: black;
+    /* Black fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/opacity */
+    overflow: hidden;
+    /* Disable horizontal scroll */
+    /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */ }
 
-.icon-mono.rss:hover {
-  background-color: #ee802f;
-  background-position: -384px -96px; }
+  /* Position the content inside the overlay */
+  .layover-content {
+    position: relative;
+    top: 10%;
+    /* 25% from the top */
+    width: 100%;
+    /* 100% width */
+    text-transform: uppercase;
+    font-weight: bold; }
+
+  /* The navigation links inside the overlay */
+  .layover a {
+    text-decoration: none;
+    /* Transition effects on hover (color) */ }
+
+  /* When you mouse over the navigation links, change their color */
+  .layover a:hover, .layover a:focus {
+    color: #f1f1f1; } }
+@media (max-width: 480px) {
+  .c-hamburger {
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    z-index: 3;
+    margin: 0;
+    padding: 0;
+    width: 36px;
+    height: 36px;
+    right: 4%;
+    top: 1%;
+    font-size: 0;
+    text-indent: -9999px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s; }
+
+  .c-hamburger:focus {
+    outline: none; }
+
+  .c-hamburger span {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 6px;
+    right: 6px;
+    height: 3px;
+    background: #f2c01b; }
+
+  .c-hamburger span::before,
+  .c-hamburger span::after {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #f2c01b;
+    content: ""; }
+
+  .c-hamburger span::before {
+    top: -10px; }
+
+  .c-hamburger span::after {
+    bottom: -10px; }
+
+  .c-hamburger--rot {
+    background-color: rgba(45, 45, 45, 0.9); }
+
+  .c-hamburger--rot span {
+    transition: transform 0.3s; }
+
+  /* active state, i.e. menu open */
+  .c-hamburger--rot.is-active {
+    background-color: #127cc0; }
+
+  .c-hamburger--rot.is-active span {
+    transform: rotate(90deg); }
+
+  /* The Overlay (background) */
+  .layover {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    display: none;
+    height: 20%;
+    width: 50%;
+    position: fixed;
+    /* Stay in place */
+    z-index: 3;
+    /* Sit on top */
+    right: 2%;
+    top: 10%;
+    background-color: black;
+    /* Black fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/opacity */
+    overflow: hidden;
+    /* Disable horizontal scroll */
+    /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */ }
+
+  /* Position the content inside the overlay */
+  .layover-content {
+    position: relative;
+    top: 10%;
+    /* 25% from the top */
+    width: 100%;
+    /* 100% width */
+    text-transform: uppercase;
+    font-weight: bold; }
+
+  /* The navigation links inside the overlay */
+  .layover a {
+    text-decoration: none;
+    /* Transition effects on hover (color) */ }
+
+  /* When you mouse over the navigation links, change their color */
+  .layover a:hover, .layover a:focus {
+    color: #f1f1f1; } }
+/* ============================================================
+  End Hamburger Menu
+============================================================ */
 
 /*# sourceMappingURL=portfolio.css.map */

@@ -9,12 +9,16 @@ $greyL:#c0c0c0;
 $greyD:#959595;
 
 
-
-
-
 @media (max-width: 767px) {
-   
-}
+  .portHd {
+    font-size: 78px; } }
+@media (max-width: 540px) {
+  .portHd {
+    font-size: 60px; } }
+@media (max-width: 400px) {
+  .portHd {
+    font-size: 48px; } }
+
 
 @media screen and (max-width: 1281px) { 
 

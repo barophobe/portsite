@@ -19,10 +19,9 @@
 	</header>
 
  
+<div id="myNav" class="layover">
 
- <div id="myNav" class="layover">
-
- <!--  layover content -->
+ <!-- layover content -->
   <div class="layover-content">
     <ul class="navLst">
       <li><a href="#intro" class="overHead"><h5><strong>Top</strong></h5></a></li>
@@ -60,8 +59,8 @@
 
 <div class="tabbable"> <!-- Only required for left/right tabs -->
   <ul class="nav nav-tabs tabsCenter">
-    <li class="active subHd subTrans"><a href="#tab1" data-toggle="tab">Page one</a></li>
-    <li class="subHd subTrans"><a href="#tab2" data-toggle="tab">Page two</a></li>
+    <li class="active "><a href="#tab1" data-toggle="tab">Page one</a></li>
+    <li class=""><a href="#tab2" data-toggle="tab">Page two</a></li>
     
   </ul>
   <div class="tab-content">
