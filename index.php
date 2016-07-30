@@ -22,17 +22,12 @@
 <div id="myNav" class="layover">
 
  <!-- layover content -->
-  <div class="layover-content">
-    <ul class="navLst">
-      <li><a href="#intro" class="overHead"><h5><strong>Top</strong></h5></a></li>
-    <li><a href="#portfolio" class="overHead"><h5><strong>Portfolio</strong></h5></a></li>
-    <li><a href="#about" class="overHead"><h5><strong>About</strong></h5></a></li>
-    <li><a href="#contact" class="overHead"><h5><strong>Contact</strong></h5></a></li>
-  </ul>
+  
     
-  </div>
-
-</div>
+      <ul class="navLst layover-content"><li><a href="#intro" class="overHead"><h5><strong>Top</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></a>  </span></li>
+    <li><a href="#portfolio" class="overHead"><h5><strong>Portfolio</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></a>  </span></li>
+    <li><a href="#about" class="overHead"><h5><strong>About</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></a>  </span></li>
+    <li><a href="#contact" class="overHead"><h5><strong>Contact</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></a>  </span></li></ul></div>
 
 
 

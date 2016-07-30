@@ -32,8 +32,16 @@ $(document).ready(function(){
 $("button").click(function(){
     $(".layover").toggle();
 });
-});
 
+
+ $('ul.layover-content').each(function(){
+    
+    $parent = $(this).parent();
+    
+    $parent.width( $(this).width() );
+    
+  });
+});
 $(function(){
   $(".layover-content a").click(function(e){
     e.preventDefault();
