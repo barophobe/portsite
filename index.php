@@ -14,20 +14,23 @@
 <body id="pageDim">
   <section id="intro" class="section">
   <?php include_once("analyticstracking.php") ?>
+  
 	<header id="hdrBg">
 		<img src="images/ed-connolly-LOGO-03.png" id="logo" alt="">
 	</header>
 
- 
+<div class="transCon">
+  <div class="specHd" id="hed"><h1 class="titleMenu titleText">Welcome!</h1></div>
+
 <div id="myNav" class="layover">
 
  <!-- layover content -->
   
     
-      <ul class="navLst layover-content"><li><a href="#intro" class="overHead"><h5><strong>Top</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></a>  </span></li>
-    <li><a href="#portfolio" class="overHead"><h5><strong>Portfolio</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></a>  </span></li>
-    <li><a href="#about" class="overHead"><h5><strong>About</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></a>  </span></li>
-    <li><a href="#contact" class="overHead"><h5><strong>Contact</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></a>  </span></li></ul></div>
+      <ul class="navLst layover-content"><li><a href="#intro" class="overHeadMenu"><h5><strong>Top</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li>
+    <li><a href="#portfolio" class="overHeadMenu"><h5><strong>Portfolio</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li>
+    <li><a href="#about" class="overHeadMenu"><h5><strong>About</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li>
+    <li><a href="#contact" class="overHeadMenu"><h5><strong>Contact</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li></ul></div>
 
 
 
@@ -35,6 +38,8 @@
 <button class="c-hamburger c-hamburger--rot">
   <span>toggle menu</span>
 </button>
+  
+</div>
   
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe numquam perferendis fugit laboriosam aliquid nobis quasi dolor sunt molestiae, voluptate magni minima nesciunt soluta distinctio neque quis fuga ad cupiditate.</p>
 	
@@ -181,7 +186,7 @@
     
 </div>
  <div class="container-fluid">
-<footer id="ed">
+<footer class="ed">
 
 <span id="invis">|</span>
 </footer></div>
@@ -190,7 +195,7 @@
 </div>
 
 <div class="container-fluid">
-<footer id="ed">
+<footer class="ed">
 
 &copy;&nbsp;All rights Reserved Ed Connolly
 </footer></div>
