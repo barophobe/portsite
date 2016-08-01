@@ -15,9 +15,14 @@
   <section id="intro" class="section">
   <?php include_once("analyticstracking.php") ?>
   
-	<header id="hdrBg">
+	<!-- <header id="hdrBg">
 		<img src="images/ed-connolly-LOGO-03.png" id="logo" alt="">
-	</header>
+	</header> -->
+
+  <div class="container-fluid bkGrnd" id="high">
+    
+
+  </div>
 
 <div class="transCon">
   <div class="specHd subTrans" id="hed"><img src="images/ed-connolly-LOGO-03.png" class="logoDim titleMenu" alt=""></div>
