@@ -20,7 +20,7 @@
 	</header>
 
 <div class="transCon">
-  <div class="specHd" id="hed"><h1 class="titleMenu titleText">Welcome!</h1></div>
+  <div class="specHd subTrans" id="hed"><img src="images/ed-connolly-LOGO-03.png" class="logoDim titleMenu" alt=""></div>
 
 <div id="myNav" class="layover">
 
