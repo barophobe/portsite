@@ -46,10 +46,10 @@
   
 </div>
   
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe numquam perferendis fugit laboriosam aliquid nobis quasi dolor sunt molestiae, voluptate magni minima nesciunt soluta distinctio neque quis fuga ad cupiditate.</p>
+  <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe numquam perferendis fugit laboriosam aliquid nobis quasi dolor sunt molestiae, voluptate magni minima nesciunt soluta distinctio neque quis fuga ad cupiditate.</p> -->
 	
 </section>
-<hr>
+<!-- <hr> -->
   <section id="portfolio" class="section">
   <div class="row-fluid senter transHd clFl">
     <div><h1 class="portHd">Portfolio</h1></div>

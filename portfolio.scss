@@ -42,9 +42,9 @@ $white:#ffffff;
 $overlay: rgba(45,45,45,0.9);
 $overlayHd: rgba(45,45,45,0.6);
 $overlayT: rgba(45,45,45,0);
-$greyL:#c0c0c0;
+$greyL:#6dadd5;//grey #c0c0c0
 $greyLT: rgba(192,192,192,0.3);
-$greyD:#959595;
+$greyD:#127cc0;// grey#959595
 
 
 .arrow_box {
@@ -937,11 +937,11 @@ box-shadow: 0px 8px 4px -4px #2F2727 outset;
     z-index: 3; 
     right: 0;
     bottom: 0;
-    padding:4px 4px 3px 4px;
+    padding:3px 3px 2px 3px;
     border: 2px solid $overlayHd;
     border-radius: 3px;
     background-color: rgb(0,0,0); /* Black fallback color */
-    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    background-color:$overlay ; /* Black w/opacity rgba(0,0,0, 0.9)*/
     overflow: hidden; 
 }
 
@@ -1001,7 +1001,7 @@ h5 {
 }
 .transCon {
   position:fixed;
-  width:312px;
+  width:310px;
   height: 244px;
   z-index: 3;
   background-color:transparent;
@@ -1016,7 +1016,7 @@ h5 {
   top:0;
   left:0;
   height:72px;
-  width:230px;
+  width:228px;
   // border-bottom:2px solid $blueD;
   // background-color:transparent;
 
@@ -1351,7 +1351,7 @@ h5 {
 }
 
 .bkGrnd { 
-  background: url("images/paintBlanc.jpg") no-repeat center center fixed; 
+  background: url("images/skyMountain.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1359,6 +1359,6 @@ h5 {
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
 -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
 }
-#high {
-  height: 800px;
+div.bkGrnd {
+  height:100vh;
 }
