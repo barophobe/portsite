@@ -369,12 +369,12 @@ color: #fff !important;
 .ftBor {
   border-left: 1px solid #fff;
 }
-// @media (max-width: 995px) {
+@media (max-width: 995px) {
  
-// .ftBor {
-//   display:none;
-// }
-//  }
+ .ftBor {
+   border-left: none;
+ }
+ }
 
 .socL {
   display: block;
@@ -1357,7 +1357,7 @@ h5 {
   -o-background-size: cover;
   background-size: cover;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
--ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='sca+le')";
 }
 div.bkGrnd {
   height:100vh;

@@ -275,6 +275,9 @@ textarea:-ms-input-placeholder {
 .ftBor {
   border-left: 1px solid #fff; }
 
+@media (max-width: 995px) {
+  .ftBor {
+    border-left: none; } }
 .socL {
   display: block;
   max-width: 22%;
@@ -1122,7 +1125,7 @@ h3.overHead3 {
   -o-background-size: cover;
   background-size: cover;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')"; }
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='sca+le')"; }
 
 div.bkGrnd {
   height: 100vh; }

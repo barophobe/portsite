@@ -19,10 +19,10 @@
 		<img src="images/ed-connolly-LOGO-03.png" id="logo" alt="">
 	</header> -->
 
-  <div class="container-fluid bkGrnd" id="high">
+  <!-- <div class="container-fluid bkGrnd" id="high">
     
-
-  </div>
+  
+  </div> -->
 
 <div class="transCon">
   <div class="specHd subTrans" id="hed"><img src="images/ed-connolly-LOGO-03.png" class="logoDim titleMenu" alt=""></div>
