@@ -170,6 +170,9 @@
   padding: 10% 0 0 0;
   text-align: center; }
 
+@media (max-width: 995px) {
+  #hed {
+    display: none; } }
 .bodyBkg {
   background-color: #959595; }
 
@@ -1030,7 +1033,7 @@ h3.overHead3 {
     z-index: 3;
     background-color: transparent;
     float: right;
-    top: 5%;
+    top: 1%;
     right: 5%;
     overflow: hidden; }
 
