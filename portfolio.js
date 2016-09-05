@@ -48,6 +48,12 @@ $(function(){
     $('html,body').scrollTo(this.hash,this.hash); 
   });
 });
+$(function(){
+  $(".arrowDwn a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
 var headerHeight = 50;
 
 $(window).bind('scroll', function () {

@@ -10,8 +10,8 @@ width:220px;
 }
 
 #edPic{
-	max-width: 40%;
-	float:right;
+	max-width: 100%;
+	// float:right;
 	}
 .bio {
   padding: 1%;
@@ -45,8 +45,25 @@ $overlayT: rgba(45,45,45,0);
 $greyL:#c0c0c0;
 $greyLT: rgba(192,192,192,0.3);
 $greyD:#959595;
+$intTxt:#c0c0c0;
+$intHd:#cd0000;
+$bckGrnd:#f5f0ed;
+$nvy:#2B5486;
 
-
+body {
+  background-color:$bckGrnd;
+}
+.mrg{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.mrgBtm{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.hdSec {
+  background:$greyD;
+}
 .arrow_box {
   position: relative;
   background: $white;
@@ -110,8 +127,12 @@ $greyD:#959595;
 
 #hdrBg {
   background:$overlay;
-
+  position: absolute;
+    bottom: 0;
+    left: 0;
 }
+
+
 .ed{
   background:$overlay;
   text-align: center;
@@ -182,7 +203,7 @@ $greyD:#959595;
 }
 
 .hovL:hover {
-   background-image: url("images/linkedin-icon.png");
+   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAvlJREFUeNq0Vl1IVFEQ/s7ZH1dy2xJTs6ws/8AE8SHNkIygVeihIokeooiIoCAiI3etKKLdh4iIIKiHBMMQIfAhcncLDIRKsh8LySTENNIs82fbWn9vc/buyq7d7O7VZpm7c86dc76ZuXNmDkM0dMrDoZcsYNCBTQ/jUtmk2qVszreHW4GEwQ0kFRPvIs4lNgffThG3Ez8mvg9IrXCUDkUPZHfn0/MGcYFKo3vFKvwy1+JqkaQOyO4+KwIVZn00VEtcAYe1fw4gMsTucZBgw/zoNW21EU6rPzTBIz3xXFkAEEF55EITbC7zn0B2dyE9j4Zrr1gcg5K0eGQvW6QFjPZjZyJDZ2uMAePvSVodemHgDF0VxVhpMWFsahqx5x5Bih5sghatpxB2yh4xvi8cRJBRz2ExGWRZR8eHMy1eGciVi0LQByc2zdbwjU9he81LHMhPwcMPg5iYlrR+r92odKXocdotwHYoaUj0u9vWNzNebo5BTqL8vdoHfFgaa0BZZgImKLQN7wbQM+xX2oaDs2w9uJRBsVuipFG/Nw/JcUY5ulUebF0XjzvluYHxtSc9OFaYCl0wpFUla7Gt+gXa+r1KW63hYCxdbQzCo3e8aBU+jfox4BsPjBPJoAf786Fjit8yXSSDSUvgm7q+I+1yM/KuP8XomFxbU+g45CTFKambBJBXC1DNq8+BdO/zjqGld2RmPj7WoKTu5aTdoaXUS2FhnPx3RnZwGI3dwjBVQExzSerjuLBFCHXqPNKE5CP/n4dq3bP/6NFtaog+eWl5PZBhEZ1yc7hGQaolUH4ENXcPIYlSODNBPrCd33z48kNObZFpoSR4Q+doxD/T4b+SNxkENMLCqndWsC0nY+HoCDXAm5FtwmEV1du5gCB1MBhv/b2V29ylNNs4T5BqMvxgZMGbTU6ri87WHpK6NQD8JD5PRfRQFLcg0YaZuKCcII5TAXKPTvFJOEs/Rn+vE1TpSiYLd5KUSpwV/NcRDxK/lTMLDRSqOSvMbwEGAJUoyYEWvcFEAAAAAElFTkSuQmCC");
 }
 
 
@@ -496,11 +517,10 @@ color: #fff !important;
   color:$yellow;
   font-weight: bold;
   font-size:84px;
-  border-bottom: 1px solid $greyL;
-  border-top: 1px solid $greyL;
+  // border-bottom: 1px solid $greyL;
+  // border-top: 1px solid $greyL;
   text-transform: uppercase;
-  padding: 3%;
-  margin:1%;
+  
   border-radius: 1%;
 }
 @media (max-width: 767px) {
@@ -1355,6 +1375,246 @@ h5 {
 
 }
 
+
+/* ============================================================
+  Hamburger-Menu  for screens 600px to 451px wide
+============================================================ */
+@media screen and (max-width: 600px) {
+.c-hamburger {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  z-index:3;
+  margin: 0;
+  padding: 0;
+  width: 56px;
+  height: 56px;
+  right: 0;
+  top: 0;
+  font-size: 0;
+  text-indent: -9999px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.c-hamburger:focus {
+  outline: none;
+}
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 9px;
+  right: 9px;
+  height: 4px;
+  background: $yellow;
+}
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color:$yellow;
+  content: "";
+}
+.c-hamburger span::before {
+  top: -14px;
+}
+
+.c-hamburger span::after {
+  bottom: -14px;
+}
+.c-hamburger--rot {
+  background-color: $overlay;
+}
+.c-hamburger--rot span {
+  transition: transform 0.3s;
+}
+.c-hamburger--rot.is-active {
+  background-color: $blueD;
+}
+.c-hamburger--rot.is-active span {
+  transform: rotate(90deg);
+}
+/* The Overlay (background) */
+.layover {
+    display:none; 
+    position: absolute; 
+    z-index: 3; 
+    right: 0;
+    bottom: 0;
+    padding:2px 2px 1px 2px;
+    border: 2px solid $overlayHd;
+    border-radius: 1px;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow: hidden; 
+     
+}
+.layover-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight:bold;  
+}
+.layover a {
+    text-decoration: none;
+}
+.layover a:hover, .layover a:focus {
+    color: #f1f1f1;
+}
+// @media screen and (max-height: 450px) {
+//     .layover a {font-size: 20px}
+   
+// }
+.navLst {
+list-style:none;
+padding: 0;
+width:292px;
+margin-bottom:0px;
+margin-top:0px;
+li{
+  background-color:  $greyLT;
+  border-bottom: 1px solid $overlayHd;
+  border-top: 1px solid $overlayHd;
+  margin-bottom: 1px;
+  padding:0;
+}
+h5 {
+  display:inline-block;
+}
+}
+.overHeadMenu {
+  text-transform: uppercase;
+  color:$yellow;
+  line-height: 1.7;
+  border-left:7px solid $yellow;
+  margin:15% 0 8% 0;
+  padding: 2% 0 2% 4%;
+  font-weight:bold;
+  text-shadow: 1px 1px 1px $overlayHd;
+}
+.overHeadSpan{
+  text-transform: uppercase;
+  color:$yellow;
+  line-height: 2;
+  margin: 0 3px 0 0;
+  font-weight:bold;
+  text-shadow: 1px 1px 1px $overlayHd;
+  vertical-align: bottom;
+}
+.transCon {
+  position:fixed;
+  width:300px;
+  height: 221px;
+  z-index: 3;
+  background-color:transparent;
+  float:right;
+  top:1%;
+  right:5%;
+  overflow: hidden;
+}
+
+.specHd {
+  position:absolute;
+  top:0;
+  left:0;
+  height:56px;
+  width:234px;
+  border-bottom:2px solid $blueD;
+  background-color:transparent;
+
+  -moz-animation-name: slideDiv;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 0.3s;
+
+    -webkit-animation-name: slideDiv;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.3s;
+
+    animation-name: slideDiv;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.3s;
+}
+
+@-moz-keyframes slideDiv {
+    0% {
+        -moz-transform: translateX(-200px);
+    }
+    100% {
+        -moz-transform: translateX(0);
+    }
+}
+@-webkit-keyframes slideDiv {
+    0% {
+        -webkit-transform: translateX(-200px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+    }
+}
+@keyframes slideDiv {
+    0% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.noSpecHd {
+  display:none;
+}
+
+.titleMenu {     
+  color:white;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: .5;
+  font-weight: bold;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+     
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+}
+
 .bkGrnd { 
   background: url("images/skyMountain.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -1366,4 +1626,51 @@ h5 {
 }
 div.bkGrnd {
   height:100vh;
+  position:relative;
+}
+.intTxt {
+  color:$intTxt;
+}
+.intHd {
+  color:$yellow;
+}
+.banner{
+  width: 100%;
+  text-align: center;
+}
+.eduLst {
+  border:1px solid $greyL;
+  border-radius-bottom:8px;
+  list-style: none;
+   list-style-position:inside;
+        margin:0;
+        padding:3px;
+   border-bottom-right-radius:8px;
+    border-bottom-left-radius:8px;
+    margin-top: 1px;
+    text-indent: 0px;
+    li {
+      border-bottom:1px solid $greyL;
+      text-align: center;
+      padding:2px 0 2px 0;
+    }
+    li:last-child {
+      border-bottom:none;
+    }
+}
+
+.edu{
+  // padding:1px;
+  h5 {
+    text-transform: uppercase;
+    color:$overlay;
+    text-align: center;
+    font-weight: bold;
+    border:1px solid $greyL;
+    border-top-right-radius:8px;
+    border-top-left-radius:8px;
+    padding-bottom:3px;
+    padding-top:3px;
+    margin-bottom: 0px;
+  }
 }

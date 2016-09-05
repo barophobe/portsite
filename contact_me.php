@@ -2,7 +2,7 @@
 
 <div class="container-fluid bodyBkg">
 <div class="row">
-<div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12">
+<div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12">
   
 <div class="well well-lg wellSty">
 <p class="conTxt">Please feel free to contact me and I will get back to you<span class="frmConHd2">&nbsp;!</span></p>
@@ -56,7 +56,7 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'
 
 
 
-  <div class="col-lg-6 col-md-6 col-sm-12">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
     
 
 <form class="form-horizontal" action="index.php" method="post">

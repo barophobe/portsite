@@ -9,55 +9,117 @@
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<script src="https://use.fontawesome.com/e5a060d640.js"></script>
 </head>
-<body id="pageDim">
-  <section id="intro" class="section">
-  <?php include_once("analyticstracking.php") ?>
-  
-	 <header id="hdrBg">
-		<img src="images/ed-connolly-LOGO-03.png" id="logo" alt="">
-	</header> 
-
-<!--    <div class="container-fluid bkGrnd" id="high">
- 
-  
-  </div>  -->
-
-<div class="transCon">
-  <div class="specHd subTrans" id="hed"><img src="images/ed-connolly-LOGO-03.png" class="logoDim titleMenu" alt=""></div>
-
-<div id="myNav" class="layover">
-
- <!-- layover content -->
-  
+  <body id="pageDim">
+    <section id="intro" class="section mrgBtm">
+    <?php include_once("analyticstracking.php") ?>
     
-      <ul class="navLst layover-content"><li><a href="#intro" class="overHeadMenu"><h5><strong>Top</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li>
-    <li><a href="#portfolio" class="overHeadMenu"><h5><strong>Portfolio</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li>
-    <li><a href="#about" class="overHeadMenu"><h5><strong>About</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li>
-    <li><a href="#contact" class="overHeadMenu"><h5><strong>Contact</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li></ul></div>
 
-
-
-
-<button class="c-hamburger c-hamburger--rot">
-  <span>toggle menu</span>
-</button>
-  
+  	
+      <div class="container-fluid bkGrnd" id="high">
+   
+     <header>
+      <div class="banner arrowDwn" id="hdrBg"><a href="#about"><span class="intHd fa fa-angle-double-down fa-3x"></span></a> 
 </div>
+    </header> 
+    </div>
+
+  <div class="transCon">
+    <div class="specHd subTrans" id="hed"><img src="images/ed-connolly-LOGO-03.png" class="logoDim titleMenu" alt=""></div>
+
+  <div id="myNav" class="layover">
+
+   <!-- layover content -->
+    
+      
+        <ul class="navLst layover-content"><li><a href="#intro" class="overHeadMenu"><h5><strong>Top</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li>
+      
+      <li><a href="#about" class="overHeadMenu"><h5><strong>About</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li>
+      <li><a href="#portfolio" class="overHeadMenu"><h5><strong>Portfolio</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li>
+      <li><a href="#contact" class="overHeadMenu"><h5><strong>Contact</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li></ul></div>
+
+
+
+
+  <button class="c-hamburger c-hamburger--rot">
+    <span>toggle menu</span>
+  </button>
+    
+  </div>
   
   <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe numquam perferendis fugit laboriosam aliquid nobis quasi dolor sunt molestiae, voluptate magni minima nesciunt soluta distinctio neque quis fuga ad cupiditate.</p> -->
 	
 </section>
-<!-- <hr> -->
-  <section id="portfolio" class="section">
-  <div class="row-fluid senter transHd clFl">
-    <div><h1 class="portHd">Portfolio</h1></div>
-  </div>
-<hr>
 
-<div class="bio"><h4 class="subHd subTrans">&nbsp;&nbsp;&nbsp;&nbsp;Skills&nbsp;&nbsp;&nbsp;&nbsp;</h4><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
-    
+<!-- <hr> -->
+
+<section id="about" class="section mrg">
+  <div class="container-fluid">
+<div class="row senter hdSec">
+    <h1 class="portHd ">About Me</h1>
+</div>
+</div>
+
+<hr>
+<div class="container">
+<div class="row-fluid">
+    <div class="col-md-3 edu">
+      <h5>skills</h5>
+      <ul class="eduLst">
+        <li>HTML5</li>
+        <li>Css3</li>
+        <li>Javascript</li>
+        <li>Php</li>
+        <li>MySql</li>
+        <li>Sql</li>
+        <li>Jquery</li>
+        <li>Jquery Mobile</li>
+        <li>Angularjs</li>
+        <li>Bootstrap</li>
+        <li>Git</li>
+        <li>Sass</li>
+        <li>Gulp</li>
+      </ul>
+
+       
+
+
+   </div>
+  <div class="bio col-md-6"><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
+    <p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam possimus optio magni sint et vel, placeat! Saepe voluptatum modi aliquid dolorem magnam, facilis quis enim esse voluptate similique autem aut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quasi at dignissimos ullam, placeat harum soluta minus possimus aperiam, eligendi amet molestiae modi quidem nemo officia debitis maiores adipisci incidunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias in animi, excepturi totam dolore eligendi et necessitatibus nemo repellat placeat. Ipsam dolores nam ut nobis, soluta iure consectetur, necessitatibus adipisci.</p><br>
+  </div>
+
+<div class="col-md-3 edu">
+   <img src="images/Ed_Connolly_profile_02.png" id="edPic"/>
+
+   <h5>Education</h5>
+      <ul class="eduLst">
+        <li>BA(Hons)Management Information Systems</li>
+        <li>BSC(Hons) Digital Technology, Design and Innovation</li>
+        <li>CIMA Advanced Diploma in Management Accounting</li>
+      </ul>
+
+   </div>
+
+  </div>
+  </div>
+</section>
+
+
+
+  <section id="portfolio" class="section">
+    <div class="container-fluid">
+  <div class="row senter hdSec">
+  <h1 class="portHd">Portfolio</h1>
+  </div>
+</div>
+<hr>
+<div class="container">
+<div class="row-fluid">
+  <div class="bio col-md-6 col-md-offset-3"><!-- <h4 class="subHd subTrans">&nbsp;&nbsp;&nbsp;&nbsp;Skills&nbsp;&nbsp;&nbsp;&nbsp;</h4> --><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
+</div>
+</div>
 </div>
 
 
@@ -163,32 +225,22 @@
 </div>
 </section>
 
-<section id="about" class="section">
-<hr>
-<div class="row-fluid senter transHd">
-    <div><h1 class=" portHd ">About Me</h1></div>
-  </div>
 
-
-<hr>
-
-  <div class="bio"><h4 class="subHd subTrans">&nbsp;&nbsp;&nbsp;&nbsp;Ed Connolly&nbsp;&nbsp;&nbsp;&nbsp;</h4><p class="weighty"><img src="images/Ed_Connolly_profile_02.png" id="edPic" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
-    <p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam possimus optio magni sint et vel, placeat! Saepe voluptatum modi aliquid dolorem magnam, facilis quis enim esse voluptate similique autem aut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quasi at dignissimos ullam, placeat harum soluta minus possimus aperiam, eligendi amet molestiae modi quidem nemo officia debitis maiores adipisci incidunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias in animi, excepturi totam dolore eligendi et necessitatibus nemo repellat placeat. Ipsam dolores nam ut nobis, soluta iure consectetur, necessitatibus adipisci.</p><br>
-  </div>
-</section>
 
 <section id="contact" class="section">
-<hr>
-  
-  <div class="row-fluid senter transHd clFl">
-    <div><h1 class="portHd ">Contact</h1></div>
-  </div>
+  <div class="container-fluid">
+  <div class="row senter hdSec">
+   <h1 class="portHd ">Contact</h1>
+  </div> 
+</div>
 
 </section>
 <hr>
-
-<div class="bio"><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
-    
+<div class="container">
+<div class="row-fluid">
+  <div class="bio col-md-6 col-md-offset-3"><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
+  </div>
+</div>
 </div>
  <div class="container-fluid">
 <footer class="ed">
