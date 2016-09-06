@@ -4,7 +4,7 @@
 <div class="row">
 <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12">
   
-<div class="well well-lg wellSty">
+<div class="messPlc">
 <p class="conTxt">Please feel free to contact me and I will get back to you<span class="frmConHd2">&nbsp;!</span></p>
 </div>
 <?php if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -36,7 +36,7 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'
 
 
     <div class="row">
-<div class="well well-lg wellStyP">
+<div class="">
   
           <div class="socL">
 

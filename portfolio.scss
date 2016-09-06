@@ -62,7 +62,8 @@ body {
   padding-bottom: 0px;
 }
 .hdSec {
-  background:$greyD;
+  // background:$overlay;
+  // padding: 2% 0 2% 0;
 }
 .arrow_box {
   position: relative;
@@ -405,7 +406,7 @@ color: #fff !important;
 .socL {
   display: block;
   max-width: 22%;
-  margin: auto;
+  margin:15% auto;
   text-align: center;
 
 }
@@ -413,14 +414,16 @@ color: #fff !important;
 .conTxt {
   color:$white;
 }
-
+.messPlc {
+  padding-top:20%;
+}
 .landList{
   display: block;
     max-width: 100%;
     margin: auto;
   list-style-type: none;
-  padding-bottom: 6%;
-  text-align: left;
+  // padding-bottom: 6%;
+  // text-align: left;
 }
 .landList > li{
   
@@ -500,7 +503,7 @@ color: #fff !important;
 
 }
 .wellSty{
-  background-color:$blueB;
+  background-color:$overlay;
   border:none;
   padding: 8% 0 8% 0;
   border-radius: 0;
@@ -510,13 +513,13 @@ color: #fff !important;
 
 .wellStyP {
   @extend .wellSty;
-  background-color:$pink;
+  background-color:$overlay;
   }
 
 .portHd {
   color:$yellow;
   font-weight: bold;
-  font-size:84px;
+  font-size:48px;
   // border-bottom: 1px solid $greyL;
   // border-top: 1px solid $greyL;
   text-transform: uppercase;
@@ -1662,6 +1665,7 @@ div.bkGrnd {
 
 .edu{
   // padding:1px;
+   margin-top:2%;
   h5 {
     text-transform: uppercase;
     color:$overlay;
@@ -1673,9 +1677,13 @@ div.bkGrnd {
     padding-bottom:3px;
     padding-top:3px;
     margin-bottom: 0px;
+   
   }
 }
-
+.edu1 {
+  @extend .edu;
+  margin-top:0;
+}
 .topAro {
   position:fixed;
   width:50px;
@@ -1688,5 +1696,19 @@ div.bkGrnd {
   overflow: hidden;
 }
 .aroUp {
-  color:darken($greyLT,50%);
+  color:darken($greyLT,40%);
+}
+
+
+
+
+
+#about {
+  margin-top: 5%;
+}
+#portfolio {
+  margin-top: 5%;
+}
+#contact{
+  margin-top: 5%;
 }

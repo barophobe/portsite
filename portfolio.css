@@ -37,9 +37,6 @@ body {
   margin-bottom: 0px;
   padding-bottom: 0px; }
 
-.hdSec {
-  background: #959595; }
-
 .arrow_box {
   position: relative;
   background: #ffffff;
@@ -300,19 +297,20 @@ textarea:-ms-input-placeholder {
 .socL {
   display: block;
   max-width: 22%;
-  margin: auto;
+  margin: 15% auto;
   text-align: center; }
 
 .conTxt {
   color: #ffffff; }
 
+.messPlc {
+  padding-top: 20%; }
+
 .landList {
   display: block;
   max-width: 100%;
   margin: auto;
-  list-style-type: none;
-  padding-bottom: 6%;
-  text-align: left; }
+  list-style-type: none; }
 
 .landList > li {
   padding: 0;
@@ -374,7 +372,7 @@ textarea:-ms-input-placeholder {
   background: -o-radial-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.9) 80%); }
 
 .wellSty, .wellStyP {
-  background-color: #6dadd5;
+  background-color: rgba(45, 45, 45, 0.9);
   border: none;
   padding: 8% 0 8% 0;
   border-radius: 0;
@@ -382,12 +380,12 @@ textarea:-ms-input-placeholder {
   margin: 10% auto 5% auto; }
 
 .wellStyP {
-  background-color: #ffaaaa; }
+  background-color: rgba(45, 45, 45, 0.9); }
 
 .portHd {
   color: #f2c01b;
   font-weight: bold;
-  font-size: 84px;
+  font-size: 48px;
   text-transform: uppercase;
   border-radius: 1%; }
 
@@ -1395,17 +1393,22 @@ div.bkGrnd {
   .eduLst li:last-child {
     border-bottom: none; }
 
-.edu h5 {
-  text-transform: uppercase;
-  color: rgba(45, 45, 45, 0.9);
-  text-align: center;
-  font-weight: bold;
-  border: 1px solid #c0c0c0;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  padding-bottom: 3px;
-  padding-top: 3px;
-  margin-bottom: 0px; }
+.edu, .edu1 {
+  margin-top: 2%; }
+  .edu h5, .edu1 h5 {
+    text-transform: uppercase;
+    color: rgba(45, 45, 45, 0.9);
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #c0c0c0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-bottom: 0px; }
+
+.edu1 {
+  margin-top: 0; }
 
 .topAro {
   position: fixed;
@@ -1419,6 +1422,15 @@ div.bkGrnd {
   overflow: hidden; }
 
 .aroUp {
-  color: rgba(65, 65, 65, 0.3); }
+  color: rgba(90, 90, 90, 0.3); }
+
+#about {
+  margin-top: 5%; }
+
+#portfolio {
+  margin-top: 5%; }
+
+#contact {
+  margin-top: 5%; }
 
 /*# sourceMappingURL=portfolio.css.map */
