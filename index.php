@@ -16,7 +16,6 @@
     <?php include_once("analyticstracking.php") ?>
     
 
-  	
       <div class="container-fluid bkGrnd" id="high">
    
      <header>
@@ -51,10 +50,10 @@
   <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe numquam perferendis fugit laboriosam aliquid nobis quasi dolor sunt molestiae, voluptate magni minima nesciunt soluta distinctio neque quis fuga ad cupiditate.</p> -->
 	
 </section>
-
+<div class="topAro"><a href="#intro"><span class="aroUp fa fa-arrow-up fa-3x"></span></a></div>
 <!-- <hr> -->
 
-<section id="about" class="section mrg">
+<section id="about" class="section">
   <div class="container-fluid">
 <div class="row senter hdSec">
     <h1 class="portHd ">About Me</h1>
@@ -65,7 +64,7 @@
 <div class="container">
 <div class="row-fluid">
     <div class="col-md-3 edu">
-      <h5>skills</h5>
+      <h5>tech/skills</h5>
       <ul class="eduLst">
         <li>HTML5</li>
         <li>Css3</li>

@@ -1053,9 +1053,8 @@ h3.overHead3 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 56px;
+    height: 57px;
     width: 234px;
-    border-bottom: 2px solid #127cc0;
     background-color: transparent;
     -moz-animation-name: slideDiv;
     -moz-animation-iteration-count: 1;
@@ -1144,8 +1143,8 @@ h3.overHead3 {
     z-index: 3;
     margin: 0;
     padding: 0;
-    width: 56px;
-    height: 56px;
+    width: 57px;
+    height: 57px;
     right: 0;
     top: 0;
     font-size: 0;
@@ -1407,5 +1406,19 @@ div.bkGrnd {
   padding-bottom: 3px;
   padding-top: 3px;
   margin-bottom: 0px; }
+
+.topAro {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  z-index: 3;
+  background-color: transparent;
+  float: right;
+  bottom: 7%;
+  right: 5%;
+  overflow: hidden; }
+
+.aroUp {
+  color: rgba(65, 65, 65, 0.3); }
 
 /*# sourceMappingURL=portfolio.css.map */

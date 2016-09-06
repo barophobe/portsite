@@ -54,6 +54,12 @@ $(function(){
     $('html,body').scrollTo(this.hash,this.hash); 
   });
 });
+$(function(){
+  $(".topAro a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
 var headerHeight = 50;
 
 $(window).bind('scroll', function () {

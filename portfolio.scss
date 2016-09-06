@@ -1285,9 +1285,9 @@ h5 {
   position:absolute;
   top:0;
   left:0;
-  height:56px;
+  height:57px;
   width:234px;
-  border-bottom:2px solid $blueD;
+  // border-bottom:2px solid $blueD;
   background-color:transparent;
 
   -moz-animation-name: slideDiv;
@@ -1387,8 +1387,8 @@ h5 {
   z-index:3;
   margin: 0;
   padding: 0;
-  width: 56px;
-  height: 56px;
+  width: 57px;
+  height: 57px;
   right: 0;
   top: 0;
   font-size: 0;
@@ -1634,6 +1634,7 @@ div.bkGrnd {
 .intHd {
   color:$yellow;
 }
+
 .banner{
   width: 100%;
   text-align: center;
@@ -1673,4 +1674,19 @@ div.bkGrnd {
     padding-top:3px;
     margin-bottom: 0px;
   }
+}
+
+.topAro {
+  position:fixed;
+  width:50px;
+  height: 50px;
+  z-index: 3;
+  background-color:transparent;
+  float:right;
+  bottom:7%;
+  right:5%;
+  overflow: hidden;
+}
+.aroUp {
+  color:darken($greyLT,50%);
 }
