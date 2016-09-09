@@ -76,8 +76,6 @@
 
   </div>
 
-<hr>
-
 <div class="container">
 
   <div class="row-fluid">
@@ -128,7 +126,11 @@
 
       <div class="col-sm-3 edu1">
 
-         <img src="images/Ed_Connolly_profile_02.png" id="edPic"/>
+          <div class="picBor">
+
+              <img src="images/Ed_Connolly_profile_02.png" id="edPic" alt="dev image"/>
+            
+          </div>
 
          <h5>Education</h5>
 
@@ -184,9 +186,9 @@
  <!-- Only required for left/right tabs -->
   <ul class="nav nav-tabs tabsCenter">
 
-    <li class="active "><a href="#tab1" data-toggle="tab">Page one</a></li>
+    <li class="active "><a href="#tab1" data-toggle="tab">Section 1</a></li>
 
-    <li class=""><a href="#tab2" data-toggle="tab">Page two</a></li>
+    <li class=""><a href="#tab2" data-toggle="tab">Section 2</a></li>
     
   </ul>
 
@@ -196,7 +198,7 @@
 
           <div id="effect-1" class="effects clearfix">
 
-            <div class="img  col-sm-6 col-xs-6 col-md-6">
+            <div class="img col-sm-6 col-xs-6 col-md-6">
 
               <h3 class="portH">Info Pages<span class="portDots">&nbsp;:</span> Unipupil</h3>
 
@@ -204,12 +206,12 @@
 
                 <div class="overlay">
 
-                  <h5 class="overHead">bootstrap/Html<br>css/javascript</h5>
+                    <h5 class="overHead">bootstrap/Html<br>css/javascript</h5>
 
-                  <h3 class="overHead3">Unipupil<br>Info Pages</h3>
+                    <h3 class="overHead3">Unipupil<br>Info Pages</h3>
 
-                  <a href="https://github.com/barophobe/Dsa-Major-Project" class="expand" target="_blank">Git Repo</a><a href="portfolio/major_proj/About_us.html" class="expand1" target="_blank">Visit Site</a>
-                  <a class="close-overlay hidden">x</a>
+                    <a href="https://github.com/barophobe/Dsa-Major-Project" class="expand" target="_blank">Git Repo</a><a href="portfolio/major_proj/About_us.html" class="expand1" target="_blank">Visit Site</a>
+                    <a class="close-overlay hidden">x</a>
                     
                 </div>
 

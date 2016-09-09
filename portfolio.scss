@@ -1,38 +1,4 @@
 
-#pageDim {
-
-	padding:0px;
-	margin:0px;
-}
-.logoDim{  //for specHd element
-height: 68px;
-width:220px;
-}
-
-#edPic{
-	max-width: 100%;
-	// float:right;
-	}
-.bio {
-  padding: 1%;
-  text-indent: 20px;
-  font-family: raledev;
-}
-.bio p:first-letter {
-
-  font-size:150%;}
-
-.bio p:first-line{
-  font-style:bold;
-}
-
-.clFl {
-  clear:both;
-}
- .contSpac{
-  margin-top:1%;
- }
-
 $pink: #ffaaaa;
 $pinkT:  rgba(255,170,170, 0.2);
 $blueB: #6dadd5;
@@ -50,9 +16,53 @@ $intHd:#cd0000;
 $bckGrnd:#f5f0ed;
 $nvy:#2B5486;
 
+#pageDim {
+
+	padding:0px;
+	margin:0px;
+}
+.logoDim{  //for specHd element
+height: 68px;
+width:220px;
+}
+
+.bio {
+  padding: 1%;
+  text-indent: 20px;
+  font-family: raledev;
+  background-color:darken($bckGrnd,5%);
+  height:100%;
+  margin-top: 2%;
+ border-radius:8px;
+}
+.bio p:first-letter {
+
+  font-size:150%;}
+
+.bio p:first-line{
+  font-style:bold;
+}
+
+.clFl {
+  clear:both;
+}
+ .contSpac{
+  margin-top:1%;
+ }
+
 body {
   background-color:$bckGrnd;
 }
+
+.picBor{
+border:1px solid $greyL;
+border-radius:8px;
+margin-top: 2%;
+}
+#edPic{
+  max-width: 100%;
+// float:right;
+  }
 .mrg{
   margin-top: 0px;
   padding-top: 0px;
@@ -502,19 +512,6 @@ color: #fff !important;
 
 
 }
-.wellSty{
-  background-color:$overlay;
-  border:none;
-  padding: 8% 0 8% 0;
-  border-radius: 0;
-  text-align: center;
-  margin: 10% auto 5% auto;
-}
-
-.wellStyP {
-  @extend .wellSty;
-  background-color:$overlay;
-  }
 
 .portHd {
   color:$yellow;
@@ -538,6 +535,8 @@ color: #fff !important;
 
  .senter {
   text-align: center;
+  border:1px solid $greyL;
+   border-radius: 8px;
  }
 
 .tabsCenter {
@@ -1682,7 +1681,7 @@ div.bkGrnd {
 }
 .edu1 {
   @extend .edu;
-  margin-top:0;
+  
 }
 .topAro {
   position:fixed;
@@ -1704,11 +1703,11 @@ div.bkGrnd {
 
 
 #about {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 #portfolio {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 #contact{
-  margin-top: 5%;
+  margin-top: 2%;
 }
