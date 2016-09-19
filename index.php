@@ -118,9 +118,7 @@
 
       <div class="bio col-sm-6">
 
-        <p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
-
-        <p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam possimus optio magni sint et vel, placeat! Saepe voluptatum modi aliquid dolorem magnam, facilis quis enim esse voluptate similique autem aut?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quasi at dignissimos ullam, placeat harum soluta minus possimus aperiam, eligendi amet molestiae modi quidem nemo officia debitis maiores adipisci incidunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias in animi, excepturi totam dolore eligendi et necessitatibus nemo repellat placeat. Ipsam dolores nam ut nobis, soluta iure consectetur, necessitatibus adipisci.</p><br>
+        <p class="weighty">I am a recent graduate of Digital Skills Academy(1st class honours) and have specialised in a developer role. I have experience working in cross functional teams in an agile environment. I have developed fully responsive websites from wireframes and hi fidelity designs.</p><br>
 
       </div>
 
@@ -140,8 +138,6 @@
 
               <li>BSC(Hons) Digital Technology, Design and Innovation</li>
 
-              <li>CIMA Advanced Diploma in Management Accounting</li>
-
             </ul>
 
       </div>
@@ -151,8 +147,6 @@
   </div>
 
 </section>
-
-
 
 <section id="portfolio" class="section">
 
@@ -174,7 +168,7 @@
 
         <div class="bio col-sm-6 col-sm-offset-3">
 
-          <p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?</p><br>
+          <p class="weighty">I have linked to a number of projects i have developed. The first two pertain to work done for an educational portal. I worked with this company for over six months primarily responsible for front end development and analytics. Following these are a number of pieces displaying different technologies which i have knowledge of.</p><br>
 
         </div>
 
@@ -326,7 +320,16 @@
 
   <div class="row-fluid">
 
-      <div class="bio col-sm-6 col-sm-offset-3"><p class="weighty">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam blanditiis labore rem facere consequuntur ipsam ea perspiciatis est aut, explicabo velit quod mollitia voluptatem laudantium magni eum accusantium, provident vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio non perferendis necessitatibus soluta similique porro reiciendis iure assumenda unde animi, quis ullam culpa. Tempora obcaecati, unde deserunt vitae eligendi vero?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur aspernatur numquam neque, unde, quae vitae possimus repellendus nihil pariatur, sequi saepe debitis dolores modi quibusdam iure non sint dolore deleniti.</p><br>
+<div class="col-sm-3 edu"><h5>Contact:</h5>
+<ul class="cont">
+<li>0878577059</li>
+<li>edoconnolly@gmail.com</li>
+<li>Bothar Maol</li>
+<li>Blackrock</li>
+<li>Co Louth</li>
+</ul>
+</div>
+      <div class="bio1 col-sm-6"><p class="weighty">My contact details are below and please don't hesitate to contact me should you have any queries.</p><br>
       </div>
 
   </div>

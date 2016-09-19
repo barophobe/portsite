@@ -8,9 +8,9 @@ $white:#ffffff;
 $overlay: rgba(45,45,45,0.9);
 $overlayHd: rgba(45,45,45,0.6);
 $overlayT: rgba(45,45,45,0);
-$greyL:#c0c0c0;
+$greyL:#AB9A91;
 $greyLT: rgba(192,192,192,0.3);
-$greyD:#959595;
+$greyD:#AB9A91;
 $intTxt:#c0c0c0;
 $intHd:#cd0000;
 $bckGrnd:#f5f0ed;
@@ -27,12 +27,13 @@ width:220px;
 }
 
 .bio {
-  padding: 1%;
+  padding:3% 1% 10% 1%;
   text-indent: 20px;
   font-family: raledev;
   background-color:darken($bckGrnd,5%);
   height:100%;
   margin-top: 2%;
+  margin-bottom: 2%;
  border-radius:8px;
 }
 .bio p:first-letter {
@@ -41,6 +42,10 @@ width:220px;
 
 .bio p:first-line{
   font-style:bold;
+}
+.bio1{
+  @extend .bio;
+   padding:3% 1% 5% 1%;
 }
 
 .clFl {
@@ -291,20 +296,20 @@ margin-top: 2%;
 
 
 textarea{ 
-    background-color:$greyL !important;
+    background-color:lighten($greyL,5%) !important;
     color: #fff !important;
     border-radius: 0 !important;
     
 }
 
 input[type="text"]{
-background-color:$greyL !important;
+background-color:lighten($greyL,5%) !important;
 color: #fff !important;
 border-radius: 0;
 
 }
 input[type="email"]{
-background-color:$greyL !important;
+background-color:lighten($greyL,5%) !important;
 color: #fff !important;
 border-radius: 0;
 
@@ -416,16 +421,17 @@ color: #fff !important;
 .socL {
   display: block;
   max-width: 22%;
-  margin:15% auto;
+  margin:8% auto;
   text-align: center;
 
 }
 
 .conTxt {
   color:$white;
+  padding:2%;
 }
 .messPlc {
-  padding-top:20%;
+  padding-top:10%;
 }
 .landList{
   display: block;
@@ -512,7 +518,11 @@ color: #fff !important;
 
 
 }
-
+.map{
+  display:block;
+  max-width:300px;
+margin: auto;
+}
 .portHd {
   color:$yellow;
   font-weight: bold;
@@ -542,6 +552,7 @@ color: #fff !important;
 .tabsCenter {
   width: 200px;
   margin: 0 auto;
+  
 }
 
 #invis{
@@ -831,7 +842,7 @@ border-bottom: 2px solid $yellow;
 
 .effects .img {
 
-
+// background-color:darken($bckGrnd,30%);
   /* Safari 4-5, Chrome 1-9 */
   background: -webkit-gradient(radial, from($greyD), to($greyL));
 
@@ -1711,3 +1722,44 @@ div.bkGrnd {
 #contact{
   margin-top: 2%;
 }
+
+
+
+ul.cont {
+  list-style: none;
+  padding: 0;
+   border:1px solid $greyL;
+  // border-radius-bottom:8px;
+  border-bottom-right-radius:8px;
+  border-bottom-left-radius:8px;
+
+li {
+  padding-left: 2em;
+  border-bottom:1px solid $greyL;
+}
+li:before {
+  content: "\f041"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+li:first-child:before {
+  content: "\f095"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+li:nth-child(2):before {
+  content: "\f0e0"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+  li:last-child {
+      border-bottom:none;
+    }
+}
+

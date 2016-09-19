@@ -2,10 +2,10 @@
 
 <div class="container-fluid bodyBkg">
 <div class="row">
-<div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12">
+<div class="col-lg-6  col-md-6 col-sm-12 col-xs-12">
   
 <div class="messPlc">
-<p class="conTxt">Please feel free to contact me and I will get back to you<span class="frmConHd2">&nbsp;!</span></p>
+<p class="conTxt map">Please feel free to contact me and I will get back to you<span class="frmConHd2">&nbsp;!</span></p>
 </div>
 <?php if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
@@ -20,13 +20,13 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'
     mail('edoconnolly@gmail.com', 'Contact Form Submission', $body, "From: {$_POST['email']}");
 
     // Print a message:
-    echo '<p class="conTxt">Your message has been sent<span class="frmConHd2">&nbsp;!</span></p>';
+    echo '<p class="conTxt map">Your message has been sent<span class="frmConHd2">&nbsp;!</span></p>';
     
     // Clear $_POST (so that the form's not sticky):
     $_POST = array();
   
   } else {
-    echo '<p style="font-weight: bold; color: #C00">Please fill out the form completely.</p>';
+    echo '<p class="conTxt map" style="font-weight: bold; color: #C00">Please fill out the form completely.</p>';
   } 
 
 }// end of main isset() IF.
@@ -36,8 +36,13 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'
 
 
     <div class="row">
-<div class="">
-  
+
+        <div class="map">
+
+     <iframe width="300" height="200" class="mapPad" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=bothar%20maol&key=AIzaSyC6-GofCbV7WPtAW3huHoO116NRnewEwao" allowfullscreen></iframe>
+
+        </div>
+
           <div class="socL">
 
             <ul class="landList list-inline" >
@@ -49,7 +54,7 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'
             </ul>
         </div>
     </div>
-</div>
+
 </div>    
 
 
