@@ -1397,6 +1397,7 @@ div.bkGrnd {
   margin-top: 1px;
   text-indent: 0px; }
   .eduLst li {
+    background-color: #ece2dd;
     border-bottom: 1px solid #AB9A91;
     text-align: center;
     padding: 2px 0 2px 0; }
@@ -1404,8 +1405,9 @@ div.bkGrnd {
     border-bottom: none; }
 
 .edu, .edu1 {
-  margin-top: 2%; }
+  margin: 2% 0 2% 0; }
   .edu h5, .edu1 h5 {
+    background-color: #AB9A91;
     text-transform: uppercase;
     color: rgba(45, 45, 45, 0.9);
     text-align: center;
@@ -1443,12 +1445,14 @@ div.bkGrnd {
 ul.cont {
   list-style: none;
   padding: 0;
+  margin-top: 1px;
   border: 1px solid #AB9A91;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px; }
   ul.cont li {
     padding-left: 2em;
-    border-bottom: 1px solid #AB9A91; }
+    border-bottom: 1px solid #AB9A91;
+    background-color: #ece2dd; }
   ul.cont li:before {
     content: "\f041";
     /* FontAwesome Unicode */

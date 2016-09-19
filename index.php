@@ -41,10 +41,10 @@
 
                     <li><a href="#intro" class="overHeadMenu"><h5><strong>Top</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li>
 
-                    <li><a href="#about" class="overHeadMenu"><h5><strong>About</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li>
-
                     <li><a href="#portfolio" class="overHeadMenu"><h5><strong>Portfolio</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li>
 
+                    <li><a href="#about" class="overHeadMenu"><h5><strong>About</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li>
+                  
                     <li><a href="#contact" class="overHeadMenu"><h5><strong>Contact</strong></h5><span class="glyphicon glyphicon-menu-right pull-right overHeadSpan" aria-hidden="true"></span></a>  </li>
 
                 </ul>
@@ -64,89 +64,7 @@
 <div class="topAro"><a href="#intro"><span class="aroUp fa fa-arrow-up fa-3x"></span></a></div>
 
 
-<section id="about" class="section">
 
-  <div class="container-fluid">
-
-    <div class="row senter">
-
-      <h1 class="portHd ">About Me</h1>
-
-    </div>
-
-  </div>
-
-<div class="container">
-
-  <div class="row-fluid">
-
-      <div class="col-sm-3 edu">
-
-        <h5>tech/skills</h5>
-
-          <ul class="eduLst">
-
-              <li>HTML5</li>
-
-              <li>Css3</li>
-
-              <li>Javascript</li>
-
-              <li>Php</li>
-
-              <li>MySql</li>
-
-              <li>Sql</li>
-
-              <li>Jquery</li>
-
-              <li>Jquery Mobile</li>
-
-              <li>Angularjs</li>
-
-              <li>Bootstrap</li>
-
-              <li>Git</li>
-
-              <li>Sass</li>
-
-              <li>GulpJs</li>
-
-          </ul>
-
-      </div>
-
-      <div class="bio col-sm-6">
-
-        <p class="weighty">I am a recent graduate of Digital Skills Academy(1st class honours) and have specialised in a developer role. I have experience working in cross functional teams in an agile environment. I have developed fully responsive websites from wireframes and hi fidelity designs.</p><br>
-
-      </div>
-
-      <div class="col-sm-3 edu1">
-
-          <div class="picBor">
-
-              <img src="images/Ed_Connolly_profile_02.png" id="edPic" alt="dev image"/>
-            
-          </div>
-
-         <h5>Education</h5>
-
-            <ul class="eduLst">
-
-              <li>BA(Hons)Management Information Systems</li>
-
-              <li>BSC(Hons) Digital Technology, Design and Innovation</li>
-
-            </ul>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
 
 <section id="portfolio" class="section">
 
@@ -159,8 +77,6 @@
     </div>
 
   </div>
-
-<hr>
 
     <div class="container">
 
@@ -298,15 +214,83 @@
 
 </section>
 
-
-
-<section id="contact" class="section">
+<section id="about" class="section">
 
   <div class="container-fluid">
 
-    <div class="row senter hdSec">
+    <div class="row senter">
 
-        <h1 class="portHd ">Contact</h1>
+      <h1 class="portHd ">About Me</h1>
+
+    </div>
+
+  </div>
+
+<div class="container">
+
+  <div class="row-fluid">
+
+      <div class="col-sm-3 edu">
+
+        <h5>tech/skills</h5>
+
+          <ul class="eduLst">
+
+              <li>HTML5</li>
+
+              <li>Css3</li>
+
+              <li>Javascript</li>
+
+              <li>Php</li>
+
+              <li>MySql</li>
+
+              <li>Sql</li>
+
+              <li>Jquery</li>
+
+              <li>Jquery Mobile</li>
+
+              <li>Angularjs</li>
+
+              <li>Bootstrap</li>
+
+              <li>Git</li>
+
+              <li>Sass</li>
+
+              <li>GulpJs</li>
+
+          </ul>
+
+      </div>
+
+      <div class="bio col-sm-6">
+
+        <p class="weighty">I am a recent graduate of Digital Skills Academy(1st class honours) and have specialised in a developer role. I have experience working in cross functional teams in an agile environment. I have developed fully responsive websites from wireframes and hi fidelity designs.</p><br>
+
+      </div>
+
+      <div class="col-sm-3 edu1">
+
+          <div class="picBor">
+
+              <img src="images/Ed_Connolly_profile_02.png" id="edPic" alt="dev image"/>
+            
+          </div>
+
+         <h5>Education</h5>
+
+            <ul class="eduLst">
+
+              <li>BA(Hons)Management Information Systems</li>
+
+              <li>BSC(Hons) Digital Technology, Design and Innovation</li>
+
+            </ul>
+
+      </div>
 
     </div>
 
@@ -314,27 +298,52 @@
 
 </section>
 
-<hr>
+<section id="contact" class="section">
+
+  <div class="container-fluid">
+
+    <div class="row senter">
+
+        <h1 class="portHd ">Contact</h1>
+
+    </div>
+
+  </div>
 
 <div class="container">
 
   <div class="row-fluid">
 
-<div class="col-sm-3 edu"><h5>Contact:</h5>
-<ul class="cont">
-<li>0878577059</li>
-<li>edoconnolly@gmail.com</li>
-<li>Bothar Maol</li>
-<li>Blackrock</li>
-<li>Co Louth</li>
-</ul>
-</div>
-      <div class="bio1 col-sm-6"><p class="weighty">My contact details are below and please don't hesitate to contact me should you have any queries.</p><br>
+      <div class="col-sm-3 edu">
+
+          <h5>Contact:</h5>
+              
+               <ul class="cont">
+                    
+                    <li>0878577059</li>
+
+                    <li>edoconnolly@gmail.com</li>
+
+                    <li>Bothar Maol</li>
+
+                    <li>Blackrock</li>
+
+                    <li>Co Louth</li>
+
+                </ul>
+      </div>
+
+      <div class="bio1 col-sm-6">
+
+            <p class="weighty">Please don't hesitate to contact me should you have any queries.</p><br>
+
       </div>
 
   </div>
 
 </div>
+
+</section>
 
 <div class="container-fluid">
 

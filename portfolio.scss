@@ -26,7 +26,7 @@ height: 68px;
 width:220px;
 }
 
-.bio {
+ .bio {
   padding:3% 1% 10% 1%;
   text-indent: 20px;
   font-family: raledev;
@@ -530,7 +530,6 @@ margin: auto;
   // border-bottom: 1px solid $greyL;
   // border-top: 1px solid $greyL;
   text-transform: uppercase;
-  
   border-radius: 1%;
 }
 @media (max-width: 767px) {
@@ -1656,14 +1655,15 @@ div.bkGrnd {
   border:1px solid $greyL;
   border-radius-bottom:8px;
   list-style: none;
-   list-style-position:inside;
-        margin:0;
-        padding:3px;
-   border-bottom-right-radius:8px;
-    border-bottom-left-radius:8px;
-    margin-top: 1px;
-    text-indent: 0px;
+  list-style-position:inside;
+  margin:0;
+  padding:3px;
+  border-bottom-right-radius:8px;
+  border-bottom-left-radius:8px;
+  margin-top: 1px;
+  text-indent: 0px;
     li {
+      background-color:darken($bckGrnd,5%);
       border-bottom:1px solid $greyL;
       text-align: center;
       padding:2px 0 2px 0;
@@ -1675,8 +1675,9 @@ div.bkGrnd {
 
 .edu{
   // padding:1px;
-   margin-top:2%;
+   margin:2% 0 2% 0;
   h5 {
+    background-color:$greyD;
     text-transform: uppercase;
     color:$overlay;
     text-align: center;
@@ -1728,7 +1729,8 @@ div.bkGrnd {
 ul.cont {
   list-style: none;
   padding: 0;
-   border:1px solid $greyL;
+  margin-top: 1px;
+  border:1px solid $greyL;
   // border-radius-bottom:8px;
   border-bottom-right-radius:8px;
   border-bottom-left-radius:8px;
@@ -1736,6 +1738,7 @@ ul.cont {
 li {
   padding-left: 2em;
   border-bottom:1px solid $greyL;
+  background-color:darken($bckGrnd,5%);
 }
 li:before {
   content: "\f041"; /* FontAwesome Unicode */
