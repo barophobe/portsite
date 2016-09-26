@@ -20,7 +20,7 @@
     margin-bottom: 5px;
     width: 49%;
     overflow: hidden;
-    background: #c0c0c0;
+  /*  background: #c0c0c0;*/
     height: 300px;
     font-size: 10px; }
 
@@ -47,7 +47,7 @@
     display: block;
     position: absolute;
     z-index: 20;
-    background: rgba(45, 45, 45, 0.9);
+   /* background: rgba(45, 45, 45, 0.9);*/
     overflow: hidden;
     transition: all 0.5s; }
 

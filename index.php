@@ -22,7 +22,7 @@
 
         <header>
 
-          <div class="banner arrowDwn" id="hdrBg"><a href="#about"><span class="intHd fa fa-angle-double-down fa-3x"></span></a> 
+          <div class="banner arrowDwn" id="hdrBg"><a href="#portfolio"><span class="intHd fa fa-angle-double-down fa-3x"></span></a> 
           </div>
 
         </header> 
@@ -92,6 +92,8 @@
 
     </div>
 
+</section>
+
 <div class="tabbable">
  <!-- Only required for left/right tabs -->
   <ul class="nav nav-tabs tabsCenter">
@@ -142,7 +144,7 @@
         <div class="overlay">
            <h5 class="overHead">Jquery Mobile<br>Json/Ajax</h5>
           <h3 class="overHead3">Single Page<br>Application</h3>
-            <a href="https://github.com/barophobe/Jquery-mobile-json-dynamic-pages-sort-alphabetically" class="expand" target="_blank">Git Repo</a><a href="portfolio/jquery_mobile/index.html" class="expand1" target="_blank">Visit Site</a>>
+            <a href="https://github.com/barophobe/Jquery-mobile-json-dynamic-pages-sort-alphabetically" class="expand" target="_blank">Git Repo</a><a href="portfolio/jquery_mobile/index.html" class="expand1" target="_blank">Visit Site</a>
             <a class="close-overlay hidden">x</a>
      
    
@@ -188,7 +190,7 @@
         <div class="overlay">
            <h5 class="overHead">Jquery<br>Json/Ajax</h5>
           <h3 class="overHead3">Flikr<br>XRates API</h3>
-            <a href="https://github.com/barophobe/Jquery-get_json-Ajax-flikr-and-exchange-rateApi-" class="expand" target="_blank">Git Repo</a><a href="portfolio/AjaxFlikrApi/Index.html" class="expand1" target="_blank">Visit Site</a>>
+            <a href="https://github.com/barophobe/Jquery-get_json-Ajax-flikr-and-exchange-rateApi-" class="expand" target="_blank">Git Repo</a><a href="portfolio/AjaxFlikrApi/Index.html" class="expand1" target="_blank">Visit Site</a>
             <a class="close-overlay hidden">x</a>
      
    
@@ -211,8 +213,6 @@
     </div>
   </div>
 </div>
-
-</section>
 
 <section id="about" class="section">
 
@@ -316,7 +316,7 @@
 
       <div class="col-sm-3 edu">
 
-          <h5>Contact:</h5>
+          <h5>Contact&nbsp;:</h5>
               
                <ul class="cont">
                     
@@ -335,7 +335,7 @@
 
       <div class="bio1 col-sm-6">
 
-            <p class="weighty">Please don't hesitate to contact me should you have any queries.</p><br>
+            <p class="weighty">Please don't hesitate to contact me should you have any queries.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo animi, optio a numquam deserunt beatae. At eum, veniam illo, optio dolor iste doloremque animi, ipsa alias excepturi, neque reiciendis! Ex.</p><br>
 
       </div>
 
@@ -361,7 +361,7 @@
 
 <div class="container-fluid">
 
-  <footer class="ed">
+  <footer class="ed1">
 
      &copy;&nbsp;All rights Reserved Ed Connolly
 

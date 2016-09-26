@@ -15,7 +15,10 @@ $intTxt:#c0c0c0;
 $intHd:#cd0000;
 $bckGrnd:#f5f0ed;
 $nvy:#2B5486;
-
+$blue1:#A2A5A9;
+$blue2:#7D8289;
+$blue3:#474F59;
+$blue4:#2C333B;
 #pageDim {
 
 	padding:0px;
@@ -32,8 +35,6 @@ width:220px;
   font-family: raledev;
   background-color:darken($bckGrnd,5%);
   height:100%;
-  margin-top: 2%;
-  margin-bottom: 2%;
  border-radius:8px;
 }
 .bio p:first-letter {
@@ -142,7 +143,7 @@ margin-top: 2%;
 }
 
 #hdrBg {
-  background:$overlay;
+  background:$blue3;
   position: absolute;
     bottom: 0;
     left: 0;
@@ -150,9 +151,14 @@ margin-top: 2%;
 
 
 .ed{
-  background:$overlay;
+  background:$blue3;
   text-align: center;
   color:$white;
+  margin-top: 2%;
+} 
+.ed1{
+  @extend .ed;
+  margin-top:0;
 }
 
 @font-face{ 
@@ -544,14 +550,15 @@ margin: auto;
 
  .senter {
   text-align: center;
-  border:1px solid $greyL;
-   border-radius: 8px;
+  border-top:1px solid $blue3;
+  border-bottom:1px solid $blue3;
+  // border-radius: 8px;
+  margin: 2% 0 2%;
  }
 
 .tabsCenter {
   width: 200px;
   margin: 0 auto;
-  
 }
 
 #invis{
@@ -591,7 +598,7 @@ margin: auto;
   display: block;
   position: absolute;
   z-index: 1;
-  background: $overlay;
+  background: $blue3;
   overflow: hidden;
   transition: all 0.6s;
   
@@ -698,7 +705,7 @@ border-bottom: 2px solid $yellow;
     margin-bottom: 5px;
     width: 49%;
     overflow: hidden;
-    background: #c0c0c0;
+    // background: #c0c0c0;
     height: 300px;
     font-size: 10px; }
 
@@ -1652,7 +1659,7 @@ div.bkGrnd {
   text-align: center;
 }
 .eduLst {
-  border:1px solid $greyL;
+  border:1px solid $blue4;
   border-radius-bottom:8px;
   list-style: none;
   list-style-position:inside;
@@ -1664,7 +1671,7 @@ div.bkGrnd {
   text-indent: 0px;
     li {
       background-color:darken($bckGrnd,5%);
-      border-bottom:1px solid $greyL;
+      border-bottom:1px solid $blue4;
       text-align: center;
       padding:2px 0 2px 0;
     }
@@ -1675,25 +1682,23 @@ div.bkGrnd {
 
 .edu{
   // padding:1px;
-   margin:2% 0 2% 0;
+   
   h5 {
-    background-color:$greyD;
+    background-color:$blue3;
     text-transform: uppercase;
-    color:$overlay;
+    color:$bckGrnd;
     text-align: center;
     font-weight: bold;
-    border:1px solid $greyL;
+    border:1px solid $blue4;
     border-top-right-radius:8px;
     border-top-left-radius:8px;
     padding-bottom:3px;
     padding-top:3px;
     margin-bottom: 0px;
-   
   }
 }
 .edu1 {
   @extend .edu;
-  
 }
 .topAro {
   position:fixed;
@@ -1718,7 +1723,7 @@ div.bkGrnd {
   margin-top: 2%;
 }
 #portfolio {
-  margin-top: 2%;
+  margin:2% 0 2%;
 }
 #contact{
   margin-top: 2%;
@@ -1730,14 +1735,14 @@ ul.cont {
   list-style: none;
   padding: 0;
   margin-top: 1px;
-  border:1px solid $greyL;
+  border:1px solid $blue4;
   // border-radius-bottom:8px;
   border-bottom-right-radius:8px;
   border-bottom-left-radius:8px;
 
 li {
   padding-left: 2em;
-  border-bottom:1px solid $greyL;
+  border-bottom:1px solid $blue4;
   background-color:darken($bckGrnd,5%);
 }
 li:before {
