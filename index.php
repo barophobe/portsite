@@ -98,9 +98,9 @@
  <!-- Only required for left/right tabs -->
   <ul class="nav nav-tabs tabsCenter">
 
-    <li class="active "><a href="#tab1" data-toggle="tab">Section 1</a></li>
+    <li class="active "><a href="#tab1" data-toggle="tab">Projects: 1 - 4</a></li>
 
-    <li class=""><a href="#tab2" data-toggle="tab">Section 2</a></li>
+    <li class=""><a href="#tab2" data-toggle="tab">Projects: 5 - 8</a></li>
     
   </ul>
 
@@ -196,7 +196,7 @@
    
         </div></div><div class="img col-sm-6 col-xs-6 col-md-6 sec">
          <h3
-         class="portH">Angular To Do List</h3><p class="projSum">Two pages which use Jquery Ajax functions to retrieve Json data from a remote site. The exchange rate api page features </p>
+         class="portH">Angular To Do List</h3><p class="projSum">Simple to do list, with function to delete a to do, strike it off as being done and also high light its importance. </p>
         <div class="overlay">
            <h5 class="overHead">AngularJs<br>css</h5>
           <h3 class="overHead3">To Do List</h3>
