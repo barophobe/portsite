@@ -82,9 +82,27 @@
 
       <div class="row-fluid">
 
-        <div class="bio col-sm-6 col-sm-offset-3">
+        <div class="bioIntro col-sm-8 col-sm-offset-1">
 
-          <p class="weighty">I have linked to a number of projects i have developed. The first two pertain to work done for an educational portal. I worked with this company for over six months primarily responsible for front end development and analytics. Following these are a number of pieces displaying different technologies which i have knowledge of.</p><br>
+          <p class="weighty">Welcome to my portfolio website. I am a recently qualified web developer and am hoping to secure a position where i can add my recently acquired skills in a commercial environment. I have linked to a number of projects i have developed. The first two pertain to work done for an educational portal. I worked with this company for over six months primarily responsible for front end development and analytics. Following these are a number of pieces displaying different technologies which i have gained experience with.</p><br>
+
+        </div>
+
+         <div class="col-sm-3 edu2">
+
+          <h5>Methodologies Used</h5>
+
+            <ul class="eduLst">
+
+                <li>Responsive Design</li>
+
+                <li>Mobile First</li>
+
+                <li>Agile Methodology</li>
+
+                <li>UX</li>
+                
+            </ul>
 
         </div>
 
@@ -268,7 +286,7 @@
 
       <div class="bio col-sm-6">
 
-        <p class="weighty">I am a recent graduate of Digital Skills Academy(1st class honours) and have specialised in a developer role. I have experience working in cross functional teams in an agile environment. I have developed fully responsive websites from wireframes and hi fidelity designs.</p><br>
+        <p class="weighty">I am a recent graduate of Digital Skills Academy where i received a BSc 1st class honours in Digital Technology Design and Innovation. I specialised in the developement stream and have gained skills in a number of technologies currently used within the industry. I have experience working in a cross functional team environment using the agile methodology. I have developed a fully responsive website from wireframes and hi fidelity designs and participated at all stages of the project. I strive to produce clean code and comply with all relevant standards in providing professional quality web solutions.</p><br>
 
       </div>
 
@@ -335,7 +353,7 @@
 
       <div class="bio1 col-sm-6">
 
-            <p class="weighty">Please don't hesitate to contact me should you have any queries.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo animi, optio a numquam deserunt beatae. At eum, veniam illo, optio dolor iste doloremque animi, ipsa alias excepturi, neque reiciendis! Ex.</p><br>
+            <p class="weighty">Please don't hesitate to contact me should you have any queries. I can be reached through the form below or by any of the contact details provided on site.</p><br>
 
       </div>
 

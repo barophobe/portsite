@@ -50,7 +50,10 @@ width:220px;
   @extend .bio;
    padding:1% 1% 0 1%;
 }
-
+ .bioIntro {
+  @extend .bio;
+  padding-bottom:2%;
+ }
 .clFl {
   clear:both;
 }
@@ -1733,6 +1736,11 @@ div.bkGrnd {
 .edu1 {
   @extend .edu;
   margin-top: 1%;
+}
+
+.edu2 {
+  @extend .edu;
+  margin-top: 3%;
 }
 .topAro {
   position:fixed;

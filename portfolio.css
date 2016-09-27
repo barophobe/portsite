@@ -6,7 +6,7 @@
   height: 68px;
   width: 220px; }
 
-.bio, .bio1 {
+.bio, .bio1, .bioIntro {
   padding: 3% 1% 10% 1%;
   margin-top: 1%;
   text-indent: 20px;
@@ -16,14 +16,17 @@
   border-radius: 8px;
   border: 1px solid #A2A5A9; }
 
-.bio p:first-letter, .bio1 p:first-letter {
+.bio p:first-letter, .bio1 p:first-letter, .bioIntro p:first-letter {
   font-size: 150%; }
 
-.bio p:first-line, .bio1 p:first-line {
+.bio p:first-line, .bio1 p:first-line, .bioIntro p:first-line {
   font-style: bold; }
 
 .bio1 {
   padding: 1% 1% 0 1%; }
+
+.bioIntro {
+  padding-bottom: 2%; }
 
 .clFl {
   clear: both; }
@@ -1432,7 +1435,7 @@ div.bkGrnd {
   .eduLst li:last-child {
     border-bottom: none; }
 
-.edu h5, .edu1 h5 {
+.edu h5, .edu1 h5, .edu2 h5 {
   background-color: #474F59;
   text-transform: uppercase;
   color: #f5f0ed;
@@ -1447,6 +1450,9 @@ div.bkGrnd {
 
 .edu1 {
   margin-top: 1%; }
+
+.edu2 {
+  margin-top: 3%; }
 
 .topAro {
   position: fixed;
