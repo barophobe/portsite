@@ -19,6 +19,8 @@ $blue1:#A2A5A9;
 $blue2:#7D8289;
 $blue3:#474F59;
 $blue4:#2C333B;
+$blue3Trans:rgba(71,79,89,0.9);
+
 #pageDim {
 
 	padding:0px;
@@ -148,7 +150,7 @@ border-radius:8px;
 }
 
 #hdrBg {
-  background:$blue3;
+  background:$blue3Trans;
   position: absolute;
     bottom: 0;
     left: 0;
@@ -617,7 +619,7 @@ margin: auto;
   display: block;
   position: absolute;
   z-index: 1;
-  background: $blue3;
+  background: $blue3Trans;
   overflow: hidden;
   transition: all 0.6s;
   
@@ -751,7 +753,7 @@ border-bottom: 2px solid $yellow;
     display: block;
     position: absolute;
     z-index: 20;
-    background: rgba(45, 45, 45, 0.9);
+    background: $blue3Trans;
     overflow: hidden;
     transition: all 0.5s; }
 
