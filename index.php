@@ -82,7 +82,7 @@
 
       <div class="row-fluid">
 
-        <div class="bioIntro col-sm-8 col-sm-offset-1">
+        <div class="bioIntro col-sm-9 ">
 
           <p class="weighty">Welcome to my portfolio website. I am a recently qualified graduate and i am hoping to secure a position where i can add my recently acquired skills as a web developer. I have linked to a number of projects i have developed. The first two pertain to work done for an educational portal where i did an internship. I worked with this company for over six months primarily responsible for front end development and analytics. Following these are a number of pieces displaying different technologies which i have gained experience with.</p><br>
 
@@ -335,11 +335,10 @@
       <div class="col-sm-3 edu">
 
           <h5>Contact&nbsp;:</h5>
-              
                <ul class="cont">
                     
                     <li>0878577059</li>
-
+              <!-- will fix the responsive issue with the email list item shortly-->
                     <li>edoconnolly@gmail.com</li>
 
                     <li>Bothar Maol</li>

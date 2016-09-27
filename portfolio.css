@@ -26,7 +26,7 @@
   padding: 1% 1% 0 1%; }
 
 .bioIntro {
-  padding-bottom: 2%; }
+  padding: 1% 1% 1% 1%; }
 
 .clFl {
   clear: both; }
@@ -1451,9 +1451,6 @@ div.bkGrnd {
 .edu1 {
   margin-top: 1%; }
 
-.edu2 {
-  margin-top: 3%; }
-
 .topAro {
   position: fixed;
   width: 50px;
@@ -1479,7 +1476,7 @@ div.bkGrnd {
 
 ul.cont {
   list-style: none;
-  padding: 0 0 1% 0;
+  padding: 1%;
   margin-top: 1px;
   border: 1px solid #2C333B;
   border-bottom-right-radius: 8px;
