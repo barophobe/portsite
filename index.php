@@ -68,9 +68,9 @@
 
 <section id="portfolio" class="section">
 
-  <div class="container-fluid">
+  <div class="container-fluid senter">
 
-    <div class="row senter">
+    <div class="row headLines">
 
         <h1 class="portHd">Portfolio</h1>
 
@@ -216,9 +216,9 @@
 
 <section id="about" class="section">
 
-  <div class="container-fluid">
+  <div class="container-fluid senter">
 
-    <div class="row senter">
+    <div class="row headLines">
 
       <h1 class="portHd ">About Me</h1>
 
@@ -300,9 +300,9 @@
 
 <section id="contact" class="section">
 
-  <div class="container-fluid">
+  <div class="container-fluid senter">
 
-    <div class="row senter">
+    <div class="row headLines">
 
         <h1 class="portHd ">Contact</h1>
 
@@ -340,6 +340,24 @@
       </div>
 
   </div>
+
+
+
+<div class="col-sm-3">
+
+ <!--  <div class="socL"> -->
+
+      <ul class="sideSoc list-inline" >
+
+           <li><a href="https://www.facebook.com/ed.connolly.560"><span class="hovF"></span></a></li>
+            <li><a href="https://twitter.com/edddddd"><span class="hovT"></span></a></li>
+            <li><a href="https://www.linkedin.com/in/edmond-connolly-6b2a84116?trk=nav_responsive_tab_profile"><span class="hovL"></span></a></li>
+                      
+      </ul>
+
+  <!-- </div> -->
+  
+</div>
 
 </div>
 

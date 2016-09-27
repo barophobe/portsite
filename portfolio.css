@@ -8,11 +8,13 @@
 
 .bio, .bio1 {
   padding: 3% 1% 10% 1%;
+  margin-top: 1%;
   text-indent: 20px;
   font-family: raledev;
   background-color: #ece2dd;
   height: 100%;
-  border-radius: 8px; }
+  border-radius: 8px;
+  border: 1px solid #A2A5A9; }
 
 .bio p:first-letter, .bio1 p:first-letter {
   font-size: 150%; }
@@ -21,7 +23,7 @@
   font-style: bold; }
 
 .bio1 {
-  padding: 3% 1% 5% 1%; }
+  padding: 1% 1% 0 1%; }
 
 .clFl {
   clear: both; }
@@ -33,9 +35,8 @@ body {
   background-color: #f5f0ed; }
 
 .picBor {
-  border: 1px solid #AB9A91;
-  border-radius: 8px;
-  margin-top: 2%; }
+  border: 1px solid #474F59;
+  border-radius: 8px; }
 
 #edPic {
   max-width: 100%; }
@@ -50,7 +51,7 @@ body {
 
 .arrow_box {
   position: relative;
-  background: #ffffff;
+  background: #f5f0ed;
   border: 4px solid #127cc0; }
 
 .arrow_box:after, .arrow_box:before {
@@ -65,7 +66,7 @@ body {
 
 .arrow_box:after {
   border-color: rgba(136, 183, 213, 0);
-  border-bottom-color: #ffffff;
+  border-bottom-color: #f5f0ed;
   border-width: 30px;
   margin-left: -30px; }
 
@@ -77,7 +78,7 @@ body {
 
 .arrow_boxDwn {
   position: relative;
-  background: #ffffff;
+  background: #f5f0ed;
   border: 4px solid #127cc0; }
 
 .arrow_boxDwn:after, .arrow_boxDwn:before {
@@ -92,7 +93,7 @@ body {
 
 .arrow_boxDwn:after {
   border-color: rgba(136, 183, 213, 0);
-  border-top-color: #ffffff;
+  border-top-color: #f5f0ed;
   border-width: 30px;
   margin-left: -30px; }
 
@@ -111,7 +112,7 @@ body {
 .ed, .ed1 {
   background: #474F59;
   text-align: center;
-  color: #ffffff;
+  color: #f5f0ed;
   margin-top: 2%; }
 
 .ed1 {
@@ -178,7 +179,7 @@ body {
 
 /*#57585*/
 .whtBox {
-  background-color: #ffffff;
+  background-color: #f5f0ed;
   height: 200px;
   width: 650px;
   border: 1px solid blue;
@@ -191,7 +192,7 @@ body {
 
 .head1 {
   font-family: raledev;
-  color: #ffffff;
+  color: #f5f0ed;
   display: block;
   max-width: 60%;
   margin: 30px auto;
@@ -207,12 +208,12 @@ body {
 /*#57585a*/
 .ftBkg {
   background-color: #0B0909;
-  color: #fff;
+  color: #f5f0ed;
   text-align: center;
   padding-top: 1%; }
 
 .frmConHd {
-  color: #fff;
+  color: #f5f0ed;
   font-style: bold; }
 
 .frmConHd2 {
@@ -220,50 +221,50 @@ body {
   font-style: bold; }
 
 .portDots {
-  color: #ffffff; }
+  color: #f5f0ed; }
 
 textarea {
   background-color: #b6a79f !important;
-  color: #fff !important;
+  color: #f5f0ed !important;
   border-radius: 0 !important; }
 
 input[type="text"] {
   background-color: #b6a79f !important;
-  color: #fff !important;
+  color: #f5f0ed !important;
   border-radius: 0; }
 
 input[type="email"] {
   background-color: #b6a79f !important;
-  color: #fff !important;
+  color: #f5f0ed !important;
   border-radius: 0; }
 
 input::-webkit-input-placeholder {
-  color: #fff !important; }
+  color: #f5f0ed !important; }
 
 input:-moz-placeholder {
   /* Firefox 18- */
-  color: #fff !important; }
+  color: #f5f0ed !important; }
 
 input::-moz-placeholder {
   /* Firefox 19+ */
-  color: #fff !important; }
+  color: #f5f0ed !important; }
 
 input:-ms-input-placeholder {
-  color: #fff !important; }
+  color: #f5f0ed !important; }
 
 textarea::-webkit-input-placeholder {
-  color: #fff !important; }
+  color: #f5f0ed !important; }
 
 textarea:-moz-placeholder {
   /* Firefox 18- */
-  color: #fff !important; }
+  color: #f5f0ed !important; }
 
 textarea::-moz-placeholder {
   /* Firefox 19+ */
-  color: #fff !important; }
+  color: #f5f0ed !important; }
 
 textarea:-ms-input-placeholder {
-  color: #fff !important; }
+  color: #f5f0ed !important; }
 
 .form-control:focus, input:focus, input[type]:focus, .uneditable-input:focus {
   border-color: rgba(242, 192, 27, 0.8);
@@ -275,10 +276,11 @@ textarea:-ms-input-placeholder {
   box-shadow: 0 1px 1px rgba(242,192,27, 0.075) inset, 0 0 8px rgba(242,192,27, 0.6);
 }*/
 .whtIco {
-  color: #fff !important; }
+  color: #f5f0ed !important; }
 
 .btn {
   background: #f2c01b;
+  color: #2C333B;
   padding: 14px 24px;
   border: 0 none;
   font-weight: 700;
@@ -291,7 +293,7 @@ textarea:-ms-input-placeholder {
 
 .btn-primary {
   background: #f2c01b;
-  color: #ffffff; }
+  color: #f5f0ed; }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
   background: #33a6cc; }
@@ -304,7 +306,7 @@ textarea:-ms-input-placeholder {
   border-radius: 0; }
 
 .ftBor {
-  border-left: 1px solid #fff; }
+  border-left: 1px solid #f5f0ed; }
 
 @media (max-width: 995px) {
   .ftBor {
@@ -316,7 +318,7 @@ textarea:-ms-input-placeholder {
   text-align: center; }
 
 .conTxt {
-  color: #ffffff;
+  color: #f5f0ed;
   padding: 2%; }
 
 .messPlc {
@@ -333,8 +335,13 @@ textarea:-ms-input-placeholder {
   margin: 0; }
 
 .landList > li > a {
-  color: #ffffff;
+  color: #f5f0ed;
   font-size: 22px; }
+
+.sideSoc {
+  @extends .landlist;
+  text-align: center;
+  margin-top: 22%; }
 
 .overHead {
   text-transform: uppercase;
@@ -410,9 +417,15 @@ textarea:-ms-input-placeholder {
     font-size: 48px; } }
 .senter {
   text-align: center;
-  border-top: 1px solid #474F59;
-  border-bottom: 1px solid #474F59;
+  border-top: 1px solid #2C333B;
+  border-bottom: 1px solid #2C333B;
+  background-color: #474F59;
   margin: 2% 0 2%; }
+
+.headLines {
+  margin: 1% 0 1% 0;
+  border-top: 1px solid #f5f0ed;
+  border-bottom: 1px solid #f5f0ed; }
 
 .tabsCenter {
   margin: 0 auto; }
@@ -465,7 +478,7 @@ a.close-overlay {
   height: 45px;
   font-size: 20px;
   font-weight: 700;
-  color: #ffffff;
+  color: #f5f0ed;
   line-height: 45px;
   text-align: center;
   background-color: #000;
@@ -480,9 +493,9 @@ a.expand, a.expand1 {
   display: block;
   position: absolute;
   z-index: 2;
-  border: solid 3px #fff;
+  border: solid 3px #f5f0ed;
   text-align: center;
-  color: #ffffff;
+  color: #f5f0ed;
   line-height: 40px;
   font-weight: 700;
   font-size: 12px; }
@@ -577,7 +590,7 @@ h3.overHead3 {
     height: 20px;
     font-size: 8px;
     font-weight: 700;
-    color: #ffffff;
+    color: #f5f0ed;
     line-height: 20px;
     text-align: center;
     background-color: #000;
@@ -594,7 +607,7 @@ h3.overHead3 {
     z-index: 100;
     border: solid 3px #fff;
     text-align: center;
-    color: #ffffff;
+    color: #f5f0ed;
     line-height: 50px;
     font-weight: 700;
     font-size: 12px; }
@@ -632,7 +645,7 @@ h3.overHead3 {
 
   .overHead3 {
     text-transform: uppercase;
-    color: #ffffff;
+    color: #f5f0ed;
     padding: 0 0 0 2%;
     font-size: 18px; } }
 @media only screen and (min-width: 401px) and (max-width: 840px) {
@@ -656,25 +669,25 @@ h3.overHead3 {
     z-index: 100;
     border: solid 3px #fff;
     text-align: center;
-    color: #ffffff;
+    color: #f5f0ed;
     line-height: 30px;
     font-weight: 700;
     font-size: 8px; } }
 .weighty {
-  color: #000000;
+  color: #2C333B;
   font-weight: 400; }
 
 .transHd {
   /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(radial, from(rgba(45, 45, 45, 0.6)), to(#ffffff));
+  background: -webkit-gradient(radial, from(rgba(45, 45, 45, 0.6)), to(#f5f0ed));
   /* Safari 5.1, Chrome 10+ */
-  background: -webkit-radial-gradient(#ffffff, rgba(45, 45, 45, 0.6) 72%);
+  background: -webkit-radial-gradient(#f5f0ed, rgba(45, 45, 45, 0.6) 72%);
   /* Firefox 3.6+ */
-  background: -moz-radial-gradient(#ffffff, rgba(45, 45, 45, 0.6) 72%);
+  background: -moz-radial-gradient(#f5f0ed, rgba(45, 45, 45, 0.6) 72%);
   /* IE 10 */
-  background: -ms-radial-gradient(#ffffff, rgba(45, 45, 45, 0.6) 72%);
+  background: -ms-radial-gradient(#f5f0ed, rgba(45, 45, 45, 0.6) 72%);
   /* Opera 11.10+ */
-  background: -o-radial-gradient(#ffffff, rgba(45, 45, 45, 0.6) 72%); }
+  background: -o-radial-gradient(#f5f0ed, rgba(45, 45, 45, 0.6) 72%); }
 
 .effects .img {
   /* Safari 4-5, Chrome 1-9 */
@@ -1413,6 +1426,7 @@ div.bkGrnd {
   .eduLst li {
     background-color: #ece2dd;
     border-bottom: 1px solid #2C333B;
+    color: #2C333B;
     text-align: center;
     padding: 2px 0 2px 0; }
   .eduLst li:last-child {
@@ -1430,6 +1444,9 @@ div.bkGrnd {
   padding-bottom: 3px;
   padding-top: 3px;
   margin-bottom: 0px; }
+
+.edu1 {
+  margin-top: 1%; }
 
 .topAro {
   position: fixed;
@@ -1462,6 +1479,7 @@ ul.cont {
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px; }
   ul.cont li {
+    color: #2C333B;
     padding-left: 2em;
     border-bottom: 1px solid #2C333B;
     background-color: #ece2dd; }

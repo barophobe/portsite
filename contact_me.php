@@ -43,7 +43,7 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'
 
         </div>
 
-          <div class="socL">
+          <!-- <div class="socL">
 
             <ul class="landList list-inline" >
                  <li><a href="https://www.facebook.com/ed.connolly.560"><span class="hovF"></span></a></li>
@@ -52,7 +52,7 @@ if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'
                 
             
             </ul>
-        </div>
+        </div> -->
     </div>
 
 </div>    
